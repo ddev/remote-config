@@ -7,7 +7,7 @@
 		// not be disabled by the user, please use with caution!
 		"notifications": {
 			"interval": 20,
- 			"infos": [],
+			"infos": [],
 			"warnings": []
 		},
 		// Ticker messages are are shown once in an interval and are rotated
@@ -16,50 +16,53 @@
 			"interval": 20,
 			"messages": [
 				{
-					"message": "Please encourage your organization to support DDEV financially, see https://github.com/sponsors/ddev"
+					"message": "Please consider supporting DDEV: https://ddev.com/support-ddev/"
 				},
 				{
-					"message": "If you get a 403 from your DDEV project it's often because the docroot is improperly specified or it doesn't have an index.php."
+					"message": "We’re actively looking for sponsors! https://github.com/sponsors/ddev"
 				},
 				{
-					"message": "You can have as many databases as you want with DDEV, you're not limited to one. See https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-i-use-additional-databases-with-ddev"
-                },
-                {
-					"message": "Use `ddev describe` to get a summary of your project's configuration."
-                },
-                {
-					"message": "Use the docs, Luke, and there's a great search facility. https://ddev.readthedocs.io/"
-                },
-                {
-					"message": "You can use `ddev exec` to run commands in your web container."
-                },
-                {
+					"message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
+				},
+				{
+					"message": "You can have as many databases as you want! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-i-use-additional-databases-with-ddev"
+				},
+				{
+					"message": "Use `ddev describe` to get a summary of your project’s configuration."
+				},
+				{
+					"message": "Don’t forget to read the docs! https://ddev.readthedocs.io/"
+				},
+				{
+					"message": "Use `ddev exec` to run commands in your web container."
+				},
+				{
 					"message": "`ddev snapshot` is great to get a quick copy of your database. `ddev help snapshot`"
-                },
-                {
-					"message": "Try `ddev share` so collaborators anywhere can see your current project. https://ddev.readthedocs.io/en/latest/users/topics/sharing/"
-                },
-                {
-					"message": "`ddev poweroff` is a great way to get back to the beginning and save resources."
-                },
-                {
-					"message": "`ddev delete` deletes your database and project registration. `ddev help delete`"
-                },
-                {
-					"message": "Different projects can actually communicate with each other, https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other"
 				},
 				{
-					"message": "The FAQ in the docs can help with lots of things, https://ddev.readthedocs.io/en/latest/users/usage/faq"
-                },
-                {
-					"message": "Use `ddev composer` instead of using composer on your workstation. Then the composer and PHP versions will be the ones you have specified for your project."
-                },
-                {
+					"message": "Try `ddev share` so collaborators anywhere can see your current project. https://ddev.readthedocs.io/en/latest/users/topics/sharing/"
+				},
+				{
+					"message": "`ddev poweroff` is a great way to get back to the beginning and save resources."
+				},
+				{
+					"message": "`ddev delete` deletes your database and project registration. `ddev help delete`"
+				},
+				{
+					"message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other"
+				},
+				{
+					"message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/latest/users/usage/faq"
+				},
+				{
+					"message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
+				},
+				{
 					"message": "`ddev npm` is the right way to run npm commands in your web container."
-                },
-                {
+				},
+				{
 					"message": "`ddev snapshot -a` will back up all your project databases."
-                }
+				}
 			]
 		}
 	}
