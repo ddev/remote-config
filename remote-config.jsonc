@@ -16,9 +16,6 @@
 			"interval": 20,
 			"messages": [
 				{
-					"message": "Please consider supporting DDEV: https://ddev.com/support-ddev/"
-				},
-				{
 					"message": "We’re actively looking for financial sponsors! https://github.com/sponsors/ddev"
 				},
 				{
