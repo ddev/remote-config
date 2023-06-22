@@ -16,16 +16,16 @@
 			"interval": 20,
 			"messages": [
 				{
-					"message": "We’re actively looking for financial sponsors! https://github.com/sponsors/ddev"
+					"message": "You can make DDEV last by becoming a financial sponsor!\nhttps://github.com/sponsors/ddev"
 				},
 				{
-					"message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
+					"message": "A 403 from your project may mean that\nthe docroot is not specified or `index.php` is missing."
 				},
 				{
-					"message": "You can have as many databases as you want! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-i-use-additional-databases-with-ddev"
+					"message": "You can have as many databases as you want!\nhttps://ddev.readthedocs.io/en/latest/users/usage/faq/#can-i-use-additional-databases-with-ddev"
 				},
 				{
-					"message": "Use `ddev describe` to get a summary of your project’s configuration."
+					"message": "Use `ddev describe` to get a summary\nof your project’s configuration."
 				},
 				{
 					"message": "Don’t forget to read the docs! https://ddev.readthedocs.io/"
@@ -34,25 +34,25 @@
 					"message": "Use `ddev exec` to run commands in your web container."
 				},
 				{
-					"message": "`ddev snapshot` is great to get a quick copy of your database. `ddev help snapshot`"
+					"message": "`ddev snapshot` makes a quick backup of your database.\n`ddev help snapshot`"
 				},
 				{
-					"message": "Try `ddev share` so collaborators anywhere can see your current project. https://ddev.readthedocs.io/en/latest/users/topics/sharing/"
+					"message": "Try `ddev share` so collaborators anywhere can see your current project.\nhttps://ddev.readthedocs.io/en/latest/users/topics/sharing/"
 				},
 				{
-					"message": "`ddev poweroff` is a great way to get back to the beginning and save resources."
+					"message": "`ddev poweroff` is a great way to get back to the beginning\nand save resources."
 				},
 				{
-					"message": "`ddev delete` deletes your database and project registration. `ddev help delete`"
+					"message": "`ddev delete` deletes your database and project registration.\n`ddev help delete`"
 				},
 				{
-					"message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other"
+					"message": "Different projects can communicate with each other!\nhttps://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other"
 				},
 				{
-					"message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/latest/users/usage/faq"
+					"message": "The FAQ is a useful collection of not-obvious details:\nhttps://ddev.readthedocs.io/en/latest/users/usage/faq"
 				},
 				{
-					"message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
+					"message": "Use `ddev composer` instead of `composer` to ensure your project\nuses the Composer and PHP versions it specifies."
 				},
 				{
 					"message": "`ddev npm` is the right way to run npm commands in your web container."
