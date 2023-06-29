@@ -43,7 +43,7 @@
 					"message": "`ddev poweroff` is a great way to get back to the beginning and save resources."
 				},
 				{
-					"message": "`ddev delete` deletes your database and project registration. `ddev help delete`"
+					"message": "`ddev delete` deletes your database and project registration; it doesn't delete any code or configuration. `ddev help delete`"
 				},
 				{
 					"message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other"
