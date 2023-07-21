@@ -15,9 +15,12 @@
 		"ticker": {
 			"interval": 20,
 			"messages": [
-				{
-					"message": "We’re actively looking for financial sponsors! https://github.com/sponsors/ddev"
-				},
+			    {
+                    "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k"
+			    },
+                {
+                    "message": "Contributor training every Tuesday, sign up! https://ddev.com/blog/contributor-training/"
+                },
 				{
 					"message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
 				},
@@ -29,6 +32,9 @@
 				},
 				{
 					"message": "Don’t forget to read the docs! https://ddev.readthedocs.io/"
+				},
+				{
+					"message": "DDEV needs *you* as a financial sponsor! https://github.com/sponsors/ddev"
 				},
 				{
 					"message": "Use `ddev exec` to run commands in your web container."
@@ -52,6 +58,9 @@
 					"message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/latest/users/usage/faq"
 				},
 				{
+				    "message": "Platform.sh sponsors DDEV by paying its lead maintainer to work on DDEV full time!"
+				},
+				{
 					"message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
 				},
 				{
@@ -59,7 +68,13 @@
 				},
 				{
 					"message": "`ddev snapshot -a` will back up all your project databases."
-				}
+				},
+                {
+                    "message": "You're invited to the DDEV Advisory Group, bimonthly on first Wednesday"
+                },
+				{
+                    "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests"
+                }
 			]
 		}
 	}
