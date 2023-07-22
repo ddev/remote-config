@@ -70,7 +70,7 @@
 					"message": "`ddev npm` is the right way to run npm commands in your web container."
 				},
 				{
-					"message": "`ddev yarn` is the right way to run yarn commands in your web container."
+					"message": "`ddev yarn` is a great way to run yarn commands in your web container."
 				},
 				{
 					"message": "`ddev snapshot -a` will back up all your project databases."
