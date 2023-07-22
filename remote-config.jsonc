@@ -52,6 +52,9 @@
 					"message": "`ddev delete` deletes your database and project registration; it doesn't delete any code or configuration. `ddev help delete`"
 				},
 				{
+					"message": "`ddev delete images` will save you some disk space by removing all ddev/ddev-* Docker images not in use by the current version of DDEV."
+				},
+				{
 					"message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other"
 				},
 				{
