@@ -5,15 +5,15 @@
 	"messages": {
 		// Infos and warnings are shown on almost every ddev command and can
 		// not be disabled by the user, please use with caution!
-		"notifications": {
-			"interval": 20,
-			"infos": [
-			    {
-			        "message": "If you have warnings about omit_containers: [dba] try `grep \"^omit_containers.*dba\" */.ddev/config.yaml` in the directory where you keep your projects"
-			    }
-			],
-			"warnings": []
-		},
+// 		"notifications": {
+// 			"interval": 20,
+// 			"infos": [
+// 			    {
+// 			        "message": "If you have warnings about omit_containers: [dba] try `grep \"^omit_containers.*dba\" */.ddev/config.yaml` in the directory where you keep your projects"
+// 			    }
+// 			],
+// 			"warnings": []
+// 		},
 		// Ticker messages are are shown once in an interval and are rotated
 		// once a message was shown.
 		"ticker": {
@@ -84,6 +84,12 @@
 				},
                 {
                     "message": "You're invited to the DDEV Advisory Group, bimonthly on first Wednesday"
+                },
+                {
+                    "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/"
+                },
+                {
+                    "message": "If you miss phpmyadmin in DDEV, `ddev get ddev/ddev-phpmyadmin`"
                 },
 				{
                     "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests"
