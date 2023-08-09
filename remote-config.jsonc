@@ -89,7 +89,7 @@
                     "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/"
                 },
                 {
-                    "message": "If you miss phpMyAdmin in DDEV, `ddev get ddev/ddev-phpmyadmin`"
+                    "message": "If you miss phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`"
                 },
 				{
                     "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests"
