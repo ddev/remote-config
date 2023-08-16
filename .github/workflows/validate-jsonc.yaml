@@ -12,8 +12,6 @@ jobs:
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
-        with:
-          node-version: '14'
 
       - name: Install dependencies
         run: npm install jsonc-parser
@@ -22,5 +20,5 @@ jobs:
         run: |
           for file in *.jsonc; do
             echo "Validating $file"
-            npx jsonc-parser parse $file
+            node validate-jsonc.js $file
           done
