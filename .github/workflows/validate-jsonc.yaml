@@ -3,7 +3,7 @@ name: Validate JSONC
 on: [push, pull_request]
 
 jobs:
-  validate:
+  validate-jsonc:
     runs-on: ubuntu-latest
 
     steps:
