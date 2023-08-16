@@ -17,7 +17,7 @@
 		// Ticker messages are are shown once in an interval and are rotated
 		// once a message was shown.
 		"ticker": {
-			"interval": 20,
+			"interval": 20, and 99
 			"messages": [
 			    {
                     "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k"
@@ -93,7 +93,7 @@
                 },
 				{
                     "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests"
-                },
+                }
 			]
 		}
 	}
