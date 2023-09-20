@@ -14,8 +14,8 @@ jobs:
           # Make sure the actual branch is checked out when running on pull requests
           ref: ${{ github.head_ref }}
 
-      # Use the Prettier Action
-      # https://github.com/marketplace/actions/prettier-action
+      # Prettier Action: https://github.com/marketplace/actions/prettier-action
+      # Prettier config: https://prettier.io/docs/en/configuration.html
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
