@@ -92,37 +92,37 @@
                     "message": "If you miss phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`"
                 },
 				{
-                    "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests"
+                    "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests."
                 },
                 {
-                    "message": "You can turn off the cell borders in `ddev describe` and `ddev list` with `ddev config global --simple-formatting`"
+                    "message": "You can turn off the cell borders in `ddev describe` and `ddev list` by running `ddev config global --simple-formatting`."
                 },
                 {
-                    "message": "You can use a more lively `ddev list` and `ddev describe` output with `ddev config global --table-style=bright`. Try it out!"
+                    "message": "You can use a more lively `ddev list` and `ddev describe` output by running `ddev config global --table-style=bright`. Try it!"
                 },
                 {
-                    "message": "DDEV's fiscal entity is now the DDEV Foundation. http://ddev.com/foundation. We have a real focus on the long-term sustainability of the project, not just depending on Randy."
+                    "message": "DDEV's fiscal entity is now the DDEV Foundation. We have a real focus on the long-term sustainability of the project, not just depending on Randy. https://ddev.com/foundation"
                 },
                 {
-                    "message": "Tag1 Consulting has become a major sponsor of DDEV with $1K/month! Stop by and thank them, https://tag1.com."
+                    "message": "Tag1 Consulting has become a major sponsor of DDEV with $1K/month! Stop by and thank them at https://tag1.com."
                 },
                 {
-                    "message": "DDEV now has PHP 8.3 in latest releases. We hope to have all extensions by the time of 8.3 release."
+                    "message": "DDEV’s latest releases include PHP 8.3. We hope to have all extensions by the time 8.3 reaches general availability later this year."
                 },
                 {
                     "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis"
                 },
                 {
-                    "message": "View officially supported add-ons with `ddev get --list` or ALL of them with `ddev get --list --all`"
+                    "message": "View officially-supported add-ons by running `ddev get --list`, or include third-party add-ons with `ddev get --list --all`"
                 },
                 {
-                    "message": "vscode users: Have you tried the new DDEV vscode extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
+                    "message": "VS Code users: have you tried the new DDEV VS Code extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
                 },
                 {
-                    "message": "PhpStorm users: You'll love the DDEV Integration Plugin for PhpStorm, https://plugins.jetbrains.com/plugin/18813-ddev-integration"
+                    "message": "PhpStorm users: you'll love the DDEV Integration Plugin for PhpStorm! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
                 },
                 {
-                    "message": "Did you know you can set environment variables with the .ddev/.env file?"
+                    "message": "Did you know you can set environment variables with the `.ddev/.env` file?"
                 }
 			]
 		}
