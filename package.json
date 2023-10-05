@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "./node_modules/.bin/prettier *.{jsonc,json,js}",
+    "lint": "./node_modules/.bin/prettier remote-config.jsonc",
     "lint:fix": "npm run lint -- --write"
   },
   "devDependencies": {
