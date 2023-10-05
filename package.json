@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "./node_modules/.bin/prettier *.{jsonc,json}",
+    "lint": "./node_modules/.bin/prettier *.{jsonc,json,js}",
     "lint:fix": "npm run lint -- --write"
   },
   "devDependencies": {
