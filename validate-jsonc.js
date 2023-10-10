@@ -15,19 +15,19 @@ const filePath = process.argv[2];
 const fileContent = fs.readFileSync(filePath, 'utf-8');
 
 const errorMessages = {
-    [ParseErrorCode.CloseBraceExpected]: 'Expected close brace }',
-    [ParseErrorCode.CloseBracketExpected]: 'Expected close bracket ]',
-    [ParseErrorCode.ColonExpected]: 'Expected colon :',
-    [ParseErrorCode.CommaExpected]: 'Expected comma ,',
-    [ParseErrorCode.EndOfFileExpected]: 'Expected end of file',
-    [ParseErrorCode.InvalidCharacter]: 'Invalid character',
-    [ParseErrorCode.InvalidCommentToken]: 'Invalid comment token',
-    [ParseErrorCode.InvalidNumberFormat]: 'Invalid number format',
-    [ParseErrorCode.InvalidSymbol]: 'Invalid symbol',
-    [ParseErrorCode.OpenBraceExpected]: 'Expected open brace {',
-    [ParseErrorCode.OpenBracketExpected]: 'Expected open bracket [',
-    [ParseErrorCode.PropertyNameExpected]: 'Expected property name',
-    [ParseErrorCode.ValueExpected]: 'Expected value',
+    [ParseErrorCode.CloseBraceExpected]: "Expected close brace }",
+    [ParseErrorCode.CloseBracketExpected]: "Expected close bracket ]",
+    [ParseErrorCode.ColonExpected]: "Expected colon :",
+    [ParseErrorCode.CommaExpected]: "Expected comma ,",
+    [ParseErrorCode.EndOfFileExpected]: "Expected end of file",
+    [ParseErrorCode.InvalidCharacter]: "Invalid character",
+    [ParseErrorCode.InvalidCommentToken]: "Invalid comment token",
+    [ParseErrorCode.InvalidNumberFormat]: "Invalid number format",
+    [ParseErrorCode.InvalidSymbol]: "Invalid symbol",
+    [ParseErrorCode.OpenBraceExpected]: "Expected open brace {",
+    [ParseErrorCode.OpenBracketExpected]: "Expected open bracket [",
+    [ParseErrorCode.PropertyNameExpected]: "Expected property name",
+    [ParseErrorCode.ValueExpected]: "Expected value",
 };
 
 try {
@@ -37,14 +37,9 @@ try {
     if (errors.length > 0) {
         console.error(`Error in ${filePath}:`);
         errors.forEach(error => {
-            const { line, character } = getLineAndCharacter(
-                fileContent,
-                error.offset,
-            );
-            const message = errorMessages[error.error] || 'Unknown error';
-            console.error(
-                `- ${message} at offset ${error.offset} (line: ${line}, character: ${character})`,
-            );
+            const { line, character } = getLineAndCharacter(fileContent, error.offset);
+            const message = errorMessages[error.error] || "Unknown error";
+            console.error(`- ${message} at offset ${error.offset} (line: ${line}, character: ${character})`);
         });
         process.exit(1);
     } else {
