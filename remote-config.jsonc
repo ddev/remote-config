@@ -124,6 +124,15 @@
         {
           "message": "Did you know you can set environment variables with the `.ddev/.env` file?"
         }
+				{
+                    "message": "Has one of your containers suddenly crashed? Is `ddev describe` returning a black file? Do not worry, type `ddev logs --follow --time` for insights into such issue"
+                }
+				{
+                    "message": "DDEV.com is open source and the perfect place to share a case study, innovative uses of DDev, or your custom-made guides and recipes."
+                }
+				{
+                    "message": "DDEV swag shop will be coming soon. We are looking at a few different options but if you have a favorite share it with us on Discord."
+                }
       ]
     }
   }
