@@ -17,7 +17,7 @@ You can manually run Prettier on this repository (requires Node.js).
    npm install
    ```
 
-1. Run the following command to attempt to auto-fix issues:
+3. Run the following command to attempt to auto-fix issues:
 
   ```shell
   npm run lint:fix
