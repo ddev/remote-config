@@ -5,7 +5,7 @@ more information, see [DDEV's documentation](https://ddev.readthedocs.io/en/late
 
 ## Contributing
 
-### Style guide
+### Style Guide
 
 This repository uses [Prettier](https://prettier.io/docs/en/) to maintain consistent formatting.
 You can manually run Prettier on this repository (requires Node.js).
