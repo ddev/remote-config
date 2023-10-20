@@ -11,7 +11,7 @@ This repository uses [Prettier](https://prettier.io/docs/en/) to maintain consis
 You can manually run Prettier on this repository (requires Node.js).
 
 1. Clone or fork this project locally.
-1. Install node dependencies:
+2. Install node dependencies:
 
    ```shell
    npm install
