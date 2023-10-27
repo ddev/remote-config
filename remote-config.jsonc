@@ -147,7 +147,7 @@
         },
         {
           "message": "Consider removing `router_http_port`, `router_https_port` and `nodejs_version` from your project config.yaml so you can use the defaults."
-        },
+        }
       ]
     }
   }
