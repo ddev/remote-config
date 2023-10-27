@@ -123,7 +123,31 @@
         },
         {
           "message": "Did you know you can set environment variables with the `.ddev/.env` file?"
-        }
+        },
+        {
+          "message": "You can contribute your own tips to these daily tips with a PR on https://github.com/ddev/remote-config"
+        },
+        {
+          "message": "DDEV's goal is to make developers happy. We hope you're happy today!"
+        },
+        {
+          "message": "If you're on macOS you may want to try the excellent new Docker provider OrbStack, https://orbstack.dev"
+        },
+        {
+          "message": "Most teams check in the project .ddev directory so everybody has the same configuration. But do NOT force-add the .ddev/.gitignore, which is managed by DDEV."
+        },
+        {
+          "message": "DDEV has support for many database browsers. Newest is `ddev dbeaver` but see all the others at https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis"
+        },
+        {
+          "message": "Today is the first day of the rest of your life! Use it well :)"
+        },
+        {
+          "message": "Pro tip: `ddev config --auto` will update your project config to current config."
+        },
+        {
+          "message": "Consider removing `router_http_port`, `router_https_port` and `nodejs_version` from your project config.yaml so you can use the defaults."
+        },
       ]
     }
   }
