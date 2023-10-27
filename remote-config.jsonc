@@ -125,7 +125,7 @@
           "message": "Did you know you can set environment variables with the `.ddev/.env` file?"
         },
         {
-          "message": "Use `ddev logs --follow --time` for insights on crashed containers or an empty `ddev describe` table."
+          "message": "Use `ddev logs --follow --time` for insights on crashed containers or other misbehavior."
         },
         {
           "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes."
