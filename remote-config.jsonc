@@ -128,7 +128,7 @@
           "message": "Run `ddev logs --follow --time` for insights on crashed containers or other misbehavior."
         },
         {
-          "message": "ddev.com is open-source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. How-to at https://ddev.com/blog/ddev-website-for-contributors/"
+          "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute at https://ddev.com/blog/ddev-website-for-contributors/"
         }
       ]
     }
