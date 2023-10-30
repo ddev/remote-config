@@ -140,9 +140,6 @@
           "message": "DDEV has support for many database browsers. Newest is `ddev dbeaver` but see all the others at https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis"
         },
         {
-          "message": "Today is the first day of the rest of your life! Use it well :)"
-        },
-        {
           "message": "Pro tip: `ddev config --auto` will update your project config to ensure it’s compatible with the version of DDEV that’s running."
         },
         {
