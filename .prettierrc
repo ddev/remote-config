@@ -8,5 +8,19 @@
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "all",
-    "useTabs": false
+    "useTabs": false,
+    "overrides": [
+        {
+            "files": [
+                "*.jsonc",
+            ],
+            "options": {
+                "parser": "json5",
+                "quoteProps": "preserve",
+                "tabWidth": 2,
+                "singleQuote": false,
+                "trailingComma": "es5",
+            },
+        },
+    ],
 }
