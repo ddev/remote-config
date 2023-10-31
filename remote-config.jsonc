@@ -130,6 +130,7 @@
         {
           "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute at https://ddev.com/blog/ddev-website-for-contributors/"
         },
+        {
           "message": "You can contribute your own tips to these daily tips with a PR on https://github.com/ddev/remote-config"
         },
         {
