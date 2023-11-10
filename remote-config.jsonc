@@ -150,6 +150,9 @@
         },
         {
           "message": "Consider removing `router_http_port`, `router_https_port` and `nodejs_version` from a project’s `config.yaml` so it can use the defaults."
+        },
+        {
+          "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev launch -m` to get the Mailpit UI."
         }
       ]
     }
