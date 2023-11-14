@@ -18,6 +18,11 @@
     // once a message was shown.
     "ticker": {
       "interval": 20,
+      "warnings": [
+         {
+           "message": "If you're running Colima v0.5.6, don't `brew upgrade` to v0.6.* until you save your databases or you'll lose them. `ddev snapshot -a`. https://twitter.com/randyfay/status/1723701983549456541"
+         }
+      ],
       "messages": [
         {
           "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k"
