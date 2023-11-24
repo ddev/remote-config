@@ -18,6 +18,7 @@
     // once a message was shown.
     "notifications": {
       "interval": 20,
+      "warnings": []
 //       "warnings": [
 //         {
 //           "message": "If you're running Colima v0.5.6, don't `brew upgrade` to v0.6.* until you save your databases or you'll lose them. `ddev snapshot -a`. https://twitter.com/randyfay/status/1723701983549456541"
@@ -172,7 +173,7 @@
           "message": "In DDEV v1.22.5 you can 'ddev pull upsun' against the new Upsun from Platform.sh."
         },
         {
-          "message": "DDEV v1.22.5 has rewritten Acquia provider, so you can `ddev pull acquia` without editing acquia.yaml.",
+          "message": "DDEV v1.22.5 has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml.",
         },
         {
           "message": "DDEV now support Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
