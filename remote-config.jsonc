@@ -19,11 +19,11 @@
     "notifications": {
       "interval": 20,
       "warnings": []
-//       "warnings": [
-//         {
-//           "message": "If you're running Colima v0.5.6, don't `brew upgrade` to v0.6.* until you save your databases or you'll lose them. `ddev snapshot -a`. https://twitter.com/randyfay/status/1723701983549456541"
-//         }
-//       ]
+      //       "warnings": [
+      //         {
+      //           "message": "If you're running Colima v0.5.6, don't `brew upgrade` to v0.6.* until you save your databases or you'll lose them. `ddev snapshot -a`. https://twitter.com/randyfay/status/1723701983549456541"
+      //         }
+      //       ]
     },
     "ticker": {
       "interval": 20,
@@ -173,10 +173,10 @@
           "message": "In DDEV v1.22.5 you can 'ddev pull upsun' against the new Upsun from Platform.sh."
         },
         {
-          "message": "DDEV v1.22.5 has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml.",
+          "message": "DDEV v1.22.5 has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml."
         },
         {
-          "message": "DDEV now support Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
+          "message": "DDEV now supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
         },
         {
           "message": "In DDEV v1.22.5+ you can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
