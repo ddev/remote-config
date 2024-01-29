@@ -180,6 +180,9 @@
         },
         {
           "message": "In DDEV v1.22.5+ you can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
+        },
+        {
+          "message": "DDEV allows you to rapidly profile the performance of your PHP code using xhprof with `ddev xhprof on`."
         }
       ]
     }
