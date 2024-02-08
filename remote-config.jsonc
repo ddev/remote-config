@@ -18,6 +18,7 @@
     // once a message was shown.
     "notifications": {
       "interval": 20,
+      "infos": [],
       "warnings": [],
       //         "warnings": [
       //           {

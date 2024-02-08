@@ -1,51 +1,87 @@
-// Uses https://www.npmjs.com/package/jsonc-parser
-// Generated in a conversation with ChatGPT, https://chat.openai.com/share/9ed4dc4d-2442-4693-9f32-131a5f12ab9a
-// node validate-jsonc.js remote-config.jsonc
 const fs = require('fs');
-const { parseTree, ParseErrorCode } = require('jsonc-parser');
+const jsoncParser = require('jsonc-parser');
+const Ajv = require('ajv');
 
-const getLineAndCharacter = (content, offset) => {
-    const beforeError = content.slice(0, offset);
-    const line = beforeError.split('\n').length;
-    const character = beforeError.split('\n').pop().length + 1;
-    return { line, character };
-};
+const ajv = new Ajv({ allErrors: true }); // Enabling detailed errors
 
-const filePath = process.argv[2];
-const fileContent = fs.readFileSync(filePath, 'utf-8');
-
-const errorMessages = {
-    [ParseErrorCode.CloseBraceExpected]: "Expected close brace }",
-    [ParseErrorCode.CloseBracketExpected]: "Expected close bracket ]",
-    [ParseErrorCode.ColonExpected]: "Expected colon :",
-    [ParseErrorCode.CommaExpected]: "Expected comma ,",
-    [ParseErrorCode.EndOfFileExpected]: "Expected end of file",
-    [ParseErrorCode.InvalidCharacter]: "Invalid character",
-    [ParseErrorCode.InvalidCommentToken]: "Invalid comment token",
-    [ParseErrorCode.InvalidNumberFormat]: "Invalid number format",
-    [ParseErrorCode.InvalidSymbol]: "Invalid symbol",
-    [ParseErrorCode.OpenBraceExpected]: "Expected open brace {",
-    [ParseErrorCode.OpenBracketExpected]: "Expected open bracket [",
-    [ParseErrorCode.PropertyNameExpected]: "Expected property name",
-    [ParseErrorCode.ValueExpected]: "Expected value",
-};
-
-try {
-    const errors = [];
-    parseTree(fileContent, errors);
-
-    if (errors.length > 0) {
-        console.error(`Error in ${filePath}:`);
-        errors.forEach(error => {
-            const { line, character } = getLineAndCharacter(fileContent, error.offset);
-            const message = errorMessages[error.error] || "Unknown error";
-            console.error(`- ${message} at offset ${error.offset} (line: ${line}, character: ${character})`);
-        });
+function parseJsoncFile(filePath) {
+    try {
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        return jsoncParser.parse(fileContent);
+    } catch (error) {
+        console.error(`Error parsing JSONC file ${filePath}:`, error.message);
         process.exit(1);
-    } else {
-        console.log(`${filePath} is valid JSONC.`);
     }
-} catch (error) {
-    console.error(`Unexpected error in ${filePath}: ${error.message}`);
+}
+
+function validateJson(data, schema) {
+    const validate = ajv.compile(schema);
+    const valid = validate(data);
+    if (!valid) {
+        console.error('Validation errors:', validate.errors);
+        return false;
+    }
+    return true;
+}
+
+function validateJsoncFile(filePath, schema) {
+    const jsonData = parseJsoncFile(filePath);
+    const isValid = validateJson(jsonData, schema);
+    if (isValid) {
+        console.log('JSONC file is valid.');
+    } else {
+        console.error('JSONC file is invalid.');
+    }
+}
+
+if (process.argv.length < 3) {
+    console.log('Usage: node validateJsonc.js <path/to/your/file.jsonc>');
     process.exit(1);
 }
+
+const filePath = process.argv[2];
+const schema = {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+    "update-interval": {
+        "type": "number",
+            "description": "Update interval of the remote config in hours."
+    },
+    "messages": {
+        "type": "object",
+            "properties": {
+            "notifications": {
+                "type": "object",
+                    "properties": {
+                    "interval": {
+                        "type": "number",
+                            "description": "Interval for showing notifications."
+                    },
+                    "infos": {
+                        "type": "array",
+                            "items": {
+                            "type": "object",
+                                "properties": {
+                                "message": {
+                                    "type": "string",
+                                        "description": "Information message to be displayed."
+                                }
+                            },
+                            "required": ["message"]
+                        },
+                        "description": "Array of info messages."
+                    }
+                },
+                "required": ["interval", "infos"]
+            }
+        },
+        "description": "Messages shown to the user."
+    }
+},
+    "required": ["update-interval", "messages"]
+
+
+};
+
+validateJsoncFile(filePath, schema);
