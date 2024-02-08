@@ -19,11 +19,11 @@
     "notifications": {
       "interval": 20,
       "warnings": []
-      //       "warnings": [
-      //         {
-      //           "message": "If you're running Colima v0.5.6, don't `brew upgrade` to v0.6.* until you save your databases or you'll lose them. `ddev snapshot -a`. https://twitter.com/randyfay/status/1723701983549456541"
-      //         }
-      //       ]
+//         "warnings": [
+//           {
+//             "message": "The upstream deb.sury.org package repository key was allowed to get very old before being renewed. If you see problems with this, upgrade to DDEV v1.22.7, or for DDEV v1.22.6 do `docker pull ddev/ddev-webserver:v1.22.6`. (This problem will appear 16 Feb 2024.) More info at https://github.com/ddev/ddev/issues/5795 ."
+//           }
+//         ]
     },
     "ticker": {
       "interval": 20,
@@ -164,22 +164,31 @@
           "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev launch -m` to get the Mailpit UI."
         },
         {
-          "message": "DDEV v1.22.5 has official support for OrbStack and Rancher Desktop on macOS in addition to Colima and Docker Desktop."
+          "message": "DDEV v1.22.5+ has official support for OrbStack and Rancher Desktop on macOS in addition to Colima and Docker Desktop."
         },
         {
           "message": "Colima has been having some growing pains in v0.6.*. If you're upgrading to it from v0.5.*, make sure you save your databases before upgrading with `ddev snapshot -a`."
         },
         {
-          "message": "In DDEV v1.22.5 you can 'ddev pull upsun' against the new Upsun from Platform.sh."
+          "message": "In DDEV v1.22.5+ you can 'ddev pull upsun' against the new Upsun from Platform.sh."
         },
         {
-          "message": "DDEV v1.22.5 has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml."
+          "message": "DDEV v1.22.5+ has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml."
         },
         {
           "message": "DDEV now supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
         },
         {
-          "message": "In DDEV v1.22.5+ you can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
+          "message": "In DDEV v1.22.5+ it makes more sense to use `nodejs_version` with a full version than using `ddev nvm`, which is more complex and error-prone. You can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
+        },
+        {
+          "message": "Did you know that DDEV has support for python projects like Django? We'd love to have your feedback!"
+        },
+        {
+          "message": "DDEV v1.23 will change defaults for projects, including PHP 8.2, MariaDB 10.11, and ddev-webserver should be based on Debian 12 Bookworm."
+        },
+        {
+          "message": "DDEV Swag is finally available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ and https://github.com/ddev/ddev/issues/5792 - thanks @bmartinez287!"
         },
         {
           "message": "DDEV allows you to rapidly profile the performance of your PHP code using xhprof with `ddev xhprof on`."
