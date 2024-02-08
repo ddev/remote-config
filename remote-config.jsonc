@@ -3,8 +3,8 @@
   "update-interval": 10,
   // Messages shown to the user.
   "messages": {
-    // Infos and warnings are shown on almost every ddev command and can
-    // not be disabled by the user, please use with caution!
+    // Infos and warnings are shown on almost every ddev command and
+    // cannot be disabled by the user, please use with caution!
     // "notifications": {
     //   "interval": 20,
     //   "infos": [
