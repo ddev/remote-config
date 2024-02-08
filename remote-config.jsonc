@@ -1,8 +1,24 @@
 {
+  // Update interval of the remote config in hours.
   "update-interval": 10,
+  // Messages shown to the user.
   "messages": {
+    // Infos and warnings are shown on almost every ddev command and
+    // cannot be disabled by the user, please use with caution!
+    // "notifications": {
+    //   "interval": 20,
+    //   "infos": [
+    //     {
+    //       "message": "If you have warnings about omit_containers: [dba] try `grep \"^omit_containers.*dba\" */.ddev/config.yaml` in the directory where you keep your projects"
+    //     }
+    //   ],
+    //   "warnings": []
+    // },
+    // Ticker messages are shown once in an interval and are rotated
+    // once a message was shown.
     "notifications": {
       "interval": 20,
+      "infos": [],
       "warnings": []
     },
     "ticker": {
