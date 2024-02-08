@@ -20,5 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - run: "./node_modules/.bin/prettier --version"
+
       - name: Validate JSONC files
         run:  npm run lint
