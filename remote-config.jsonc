@@ -18,182 +18,182 @@
     // once a message was shown.
     "notifications": {
       "interval": 20,
-      "warnings": []
-//         "warnings": [
-//           {
-//             "message": "The upstream deb.sury.org package repository key was allowed to get very old before being renewed. If you see problems with this, upgrade to DDEV v1.22.7, or for DDEV v1.22.6 do `docker pull ddev/ddev-webserver:v1.22.6`. (This problem will appear 16 Feb 2024.) More info at https://github.com/ddev/ddev/issues/5795 ."
-//           }
-//         ]
+      "warnings": [],
+      //         "warnings": [
+      //           {
+      //             "message": "The upstream deb.sury.org package repository key was allowed to get very old before being renewed. If you see problems with this, upgrade to DDEV v1.22.7, or for DDEV v1.22.6 do `docker pull ddev/ddev-webserver:v1.22.6`. (This problem will appear 16 Feb 2024.) More info at https://github.com/ddev/ddev/issues/5795 ."
+      //           }
+      //         ]
     },
     "ticker": {
       "interval": 20,
       "messages": [
         {
-          "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k"
+          "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k",
         },
         {
-          "message": "Contributor training every Tuesday, sign up! https://ddev.com/blog/contributor-training/"
+          "message": "Contributor training every Tuesday, sign up! https://ddev.com/blog/contributor-training/",
         },
         {
-          "message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
+          "message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing.",
         },
         {
-          "message": "You can have as many databases as you want! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-i-use-additional-databases-with-ddev"
+          "message": "You can have as many databases as you want! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-i-use-additional-databases-with-ddev",
         },
         {
-          "message": "Use `ddev describe` to get a summary of your project’s configuration."
+          "message": "Use `ddev describe` to get a summary of your project’s configuration.",
         },
         {
-          "message": "Don’t forget to read the docs! https://ddev.readthedocs.io/"
+          "message": "Don’t forget to read the docs! https://ddev.readthedocs.io/",
         },
         {
-          "message": "DDEV needs *you* as a financial sponsor! https://github.com/sponsors/ddev"
+          "message": "DDEV needs *you* as a financial sponsor! https://github.com/sponsors/ddev",
         },
         {
-          "message": "Use `ddev exec` to run commands in your web container."
+          "message": "Use `ddev exec` to run commands in your web container.",
         },
         {
-          "message": "`ddev snapshot` is great to get a quick copy of your database. `ddev help snapshot`"
+          "message": "`ddev snapshot` is great to get a quick copy of your database. `ddev help snapshot`",
         },
         {
-          "message": "Try `ddev share` so collaborators anywhere can see your current project. https://ddev.readthedocs.io/en/latest/users/topics/sharing/"
+          "message": "Try `ddev share` so collaborators anywhere can see your current project. https://ddev.readthedocs.io/en/latest/users/topics/sharing/",
         },
         {
-          "message": "`ddev poweroff` is a great way to get back to the beginning and save resources."
+          "message": "`ddev poweroff` is a great way to get back to the beginning and save resources.",
         },
         {
-          "message": "`ddev delete` deletes your database and project registration; it doesn't delete any code or configuration. `ddev help delete`"
+          "message": "`ddev delete` deletes your database and project registration; it doesn't delete any code or configuration. `ddev help delete`",
         },
         {
-          "message": "`ddev delete images` will save you some disk space by removing all ddev/ddev-* Docker images not in use by the current version of DDEV."
+          "message": "`ddev delete images` will save you some disk space by removing all ddev/ddev-* Docker images not in use by the current version of DDEV.",
         },
         {
-          "message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other"
+          "message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other",
         },
         {
-          "message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/latest/users/usage/faq"
+          "message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/latest/users/usage/faq",
         },
         {
-          "message": "Platform.sh sponsors DDEV by paying its lead maintainer to work on DDEV full time!"
+          "message": "Platform.sh sponsors DDEV by paying its lead maintainer to work on DDEV full time!",
         },
         {
-          "message": "Need to get the database and files from your Platform.sh stack? Try `ddev pull platform`! https://ddev.readthedocs.io/en/latest/users/providers/platform"
+          "message": "Need to get the database and files from your Platform.sh stack? Try `ddev pull platform`! https://ddev.readthedocs.io/en/latest/users/providers/platform",
         },
         {
-          "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
+          "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies.",
         },
         {
-          "message": "`ddev npm` is the right way to run npm commands in your web container."
+          "message": "`ddev npm` is the right way to run npm commands in your web container.",
         },
         {
-          "message": "`ddev yarn` is a great way to run yarn commands in your web container."
+          "message": "`ddev yarn` is a great way to run yarn commands in your web container.",
         },
         {
-          "message": "`ddev snapshot -a` will back up all your project databases."
+          "message": "`ddev snapshot -a` will back up all your project databases.",
         },
         {
-          "message": "You're invited to the DDEV Advisory Group, bimonthly on first Wednesday"
+          "message": "You're invited to the DDEV Advisory Group, bimonthly on first Wednesday",
         },
         {
-          "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/"
+          "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/",
         },
         {
-          "message": "If you miss phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`"
+          "message": "If you miss phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`",
         },
         {
-          "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests."
+          "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests.",
         },
         {
-          "message": "You can turn off the cell borders in `ddev describe` and `ddev list` by running `ddev config global --simple-formatting`."
+          "message": "You can turn off the cell borders in `ddev describe` and `ddev list` by running `ddev config global --simple-formatting`.",
         },
         {
-          "message": "You can use a more lively `ddev list` and `ddev describe` output by running `ddev config global --table-style=bright`. Try it!"
+          "message": "You can use a more lively `ddev list` and `ddev describe` output by running `ddev config global --table-style=bright`. Try it!",
         },
         {
-          "message": "DDEV's fiscal entity is now the DDEV Foundation. We have a real focus on the long-term sustainability of the project, not just depending on Randy. https://ddev.com/foundation"
+          "message": "DDEV's fiscal entity is now the DDEV Foundation. We have a real focus on the long-term sustainability of the project, not just depending on Randy. https://ddev.com/foundation",
         },
         {
-          "message": "Tag1 Consulting has become a major sponsor of DDEV with $1K/month! Stop by and thank them at https://tag1.com."
+          "message": "Tag1 Consulting has become a major sponsor of DDEV with $1K/month! Stop by and thank them at https://tag1.com.",
         },
         {
-          "message": "DDEV’s latest releases include PHP 8.3. We hope to have all extensions by the time 8.3 reaches general availability later this year."
+          "message": "DDEV’s latest releases include PHP 8.3. We hope to have all extensions by the time 8.3 reaches general availability later this year.",
         },
         {
-          "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis"
+          "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis",
         },
         {
-          "message": "View officially-supported add-ons by running `ddev get --list`, or include third-party add-ons with `ddev get --list --all`"
+          "message": "View officially-supported add-ons by running `ddev get --list`, or include third-party add-ons with `ddev get --list --all`",
         },
         {
-          "message": "VS Code users: have you tried the new DDEV VS Code extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
+          "message": "VS Code users: have you tried the new DDEV VS Code extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager",
         },
         {
-          "message": "PhpStorm users: you'll love the DDEV Integration Plugin for PhpStorm! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
+          "message": "PhpStorm users: you'll love the DDEV Integration Plugin for PhpStorm! https://plugins.jetbrains.com/plugin/18813-ddev-integration",
         },
         {
-          "message": "Did you know you can set environment variables with the `.ddev/.env` file?"
+          "message": "Did you know you can set environment variables with the `.ddev/.env` file?",
         },
         {
-          "message": "Run `ddev logs --follow --time` for insights on crashed containers or other misbehavior."
+          "message": "Run `ddev logs --follow --time` for insights on crashed containers or other misbehavior.",
         },
         {
-          "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute at https://ddev.com/blog/ddev-website-for-contributors/"
+          "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute at https://ddev.com/blog/ddev-website-for-contributors/",
         },
         {
-          "message": "You can contribute your own tips to these daily tips with a PR on https://github.com/ddev/remote-config"
+          "message": "You can contribute your own tips to these daily tips with a PR on https://github.com/ddev/remote-config",
         },
         {
-          "message": "DDEV's goal is to make developers happy. We hope you're happy today!"
+          "message": "DDEV's goal is to make developers happy. We hope you're happy today!",
         },
         {
-          "message": "If you're on macOS you may want to try the excellent new Docker provider OrbStack: https://orbstack.dev"
+          "message": "If you're on macOS you may want to try the excellent new Docker provider OrbStack: https://orbstack.dev",
         },
         {
-          "message": "Most teams check in a project’s `.ddev` directory so everybody has the same configuration. But do NOT force-add the `.ddev/.gitignore`, which is managed by DDEV."
+          "message": "Most teams check in a project’s `.ddev` directory so everybody has the same configuration. But do NOT force-add the `.ddev/.gitignore`, which is managed by DDEV.",
         },
         {
-          "message": "DDEV has support for many database browsers. Newest is `ddev dbeaver` but see all the others at https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis"
+          "message": "DDEV has support for many database browsers. Newest is `ddev dbeaver` but see all the others at https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis",
         },
         {
-          "message": "Pro tip: `ddev config --auto` will update your project config to ensure it’s compatible with the version of DDEV that’s running."
+          "message": "Pro tip: `ddev config --auto` will update your project config to ensure it’s compatible with the version of DDEV that’s running.",
         },
         {
-          "message": "Consider removing `router_http_port`, `router_https_port` and `nodejs_version` from a project’s `config.yaml` so it can use the defaults."
+          "message": "Consider removing `router_http_port`, `router_https_port` and `nodejs_version` from a project’s `config.yaml` so it can use the defaults.",
         },
         {
-          "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev launch -m` to get the Mailpit UI."
+          "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev launch -m` to get the Mailpit UI.",
         },
         {
-          "message": "DDEV v1.22.5+ has official support for OrbStack and Rancher Desktop on macOS in addition to Colima and Docker Desktop."
+          "message": "DDEV v1.22.5+ has official support for OrbStack and Rancher Desktop on macOS in addition to Colima and Docker Desktop.",
         },
         {
-          "message": "Colima has been having some growing pains in v0.6.*. If you're upgrading to it from v0.5.*, make sure you save your databases before upgrading with `ddev snapshot -a`."
+          "message": "Colima has been having some growing pains in v0.6.*. If you're upgrading to it from v0.5.*, make sure you save your databases before upgrading with `ddev snapshot -a`.",
         },
         {
-          "message": "In DDEV v1.22.5+ you can 'ddev pull upsun' against the new Upsun from Platform.sh."
+          "message": "In DDEV v1.22.5+ you can 'ddev pull upsun' against the new Upsun from Platform.sh.",
         },
         {
-          "message": "DDEV v1.22.5+ has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml."
+          "message": "DDEV v1.22.5+ has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml.",
         },
         {
-          "message": "DDEV now supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
+          "message": "DDEV now supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'.",
         },
         {
-          "message": "In DDEV v1.22.5+ it makes more sense to use `nodejs_version` with a full version than using `ddev nvm`, which is more complex and error-prone. You can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
+          "message": "In DDEV v1.22.5+ it makes more sense to use `nodejs_version` with a full version than using `ddev nvm`, which is more complex and error-prone. You can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work.",
         },
         {
-          "message": "Did you know that DDEV has support for python projects like Django? We'd love to have your feedback!"
+          "message": "Did you know that DDEV has support for python projects like Django? We'd love to have your feedback!",
         },
         {
-          "message": "DDEV v1.23 will change defaults for projects, including PHP 8.2, MariaDB 10.11, and ddev-webserver should be based on Debian 12 Bookworm."
+          "message": "DDEV v1.23 will change defaults for projects, including PHP 8.2, MariaDB 10.11, and ddev-webserver should be based on Debian 12 Bookworm.",
         },
         {
-          "message": "DDEV Swag is finally available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ and https://github.com/ddev/ddev/issues/5792 - thanks @bmartinez287!"
+          "message": "DDEV Swag is finally available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ and https://github.com/ddev/ddev/issues/5792 - thanks @bmartinez287!",
         },
         {
-          "message": "DDEV allows you to rapidly profile the performance of your PHP code using xhprof with `ddev xhprof on`."
-        }
-      ]
-    }
-  }
+          "message": "DDEV allows you to rapidly profile the performance of your PHP code using xhprof with `ddev xhprof on`.",
+        },
+      ],
+    },
+  },
 }
