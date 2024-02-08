@@ -1,7 +1,5 @@
 {
-  // Update interval of the remote config in hours.
   "update-interval": 10,
-  // Messages shown to the user.
   "messages": {
     "notifications": {
       "interval": 20,
