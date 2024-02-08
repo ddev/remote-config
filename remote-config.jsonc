@@ -3,7 +3,6 @@
   "messages": {
     "notifications": {
       "interval": 20,
-      "infos": [],
       "warnings": [],
     },
     "ticker": {

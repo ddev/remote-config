@@ -80,7 +80,7 @@ const schema = {
                             "description": "Array of info messages."
                         }
                     },
-                    "required": ["interval", "infos"]
+                    "required": ["interval",]
                 }
             },
             "description": "Messages shown to the user."
