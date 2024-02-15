@@ -21,8 +21,8 @@
       "infos": [
         {
           "message": "The upstream deb.sury.org package key was unfortunately allowed to come near expiration. This does not affect DDEV v1.22.7, but if you see warnings or errors in earlier versions during `ddev start` the easy fix is in https://github.com/ddev/ddev/issues/5795",
-          "title": "this is a test",
-//          "versions": "<v1.22.7"
+          "versions": "<=v1.22.6",
+          "title": "this is a test"
         }
       ],
       "warnings": []
