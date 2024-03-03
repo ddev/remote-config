@@ -19,10 +19,10 @@
     "notifications": {
       "interval": 20,
       "infos": [
-        {
-          "message": "The upstream deb.sury.org package key was unfortunately allowed to come near expiration as of 16 Feb 2024. This does not affect DDEV v1.22.7, so upgrade, but if you see warnings or errors in earlier versions during `ddev start` the easy fix is in https://github.com/ddev/ddev/issues/5795",
-          "versions": "<=v1.22.6"
-        }
+//        {
+//          "message": "The upstream deb.sury.org package key was unfortunately allowed to come near expiration as of 16 Feb 2024. This does not affect DDEV v1.22.7, so upgrade, but if you see warnings or errors in earlier versions during `ddev start` the easy fix is in https://github.com/ddev/ddev/issues/5795",
+//          "versions": "<=v1.22.6"
+//        }
       ],
       "warnings": []
     },
@@ -39,7 +39,7 @@
           "message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
         },
         {
-          "message": "You can have as many databases as you want! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-i-use-additional-databases-with-ddev"
+          "message": "You can have as many databases as you want! https://ddev.readthedocs.io/en/stable/users/usage/faq/#can-i-use-additional-databases-with-ddev"
         },
         {
           "message": "Use `ddev describe` to get a summary of your project’s configuration."
@@ -57,7 +57,7 @@
           "message": "`ddev snapshot` is great to get a quick copy of your database. `ddev help snapshot`"
         },
         {
-          "message": "Try `ddev share` so collaborators anywhere can see your current project. https://ddev.readthedocs.io/en/latest/users/topics/sharing/"
+          "message": "Try `ddev share` so collaborators anywhere can see your current project. https://ddev.readthedocs.io/en/stable/users/topics/sharing/"
         },
         {
           "message": "`ddev poweroff` is a great way to get back to the beginning and save resources."
@@ -69,16 +69,16 @@
           "message": "`ddev delete images` will save you some disk space by removing all ddev/ddev-* Docker images not in use by the current version of DDEV."
         },
         {
-          "message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/latest/users/usage/faq/#can-different-projects-communicate-with-each-other"
+          "message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/stable/users/usage/faq/#can-different-projects-communicate-with-each-other"
         },
         {
-          "message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/latest/users/usage/faq"
+          "message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/stable/users/usage/faq"
         },
         {
           "message": "Platform.sh sponsors DDEV by paying its lead maintainer to work on DDEV full time!"
         },
         {
-          "message": "Need to get the database and files from your Platform.sh stack? Try `ddev pull platform`! https://ddev.readthedocs.io/en/latest/users/providers/platform"
+          "message": "Need to get the database and files from your Platform.sh stack? Try `ddev pull platform`! https://ddev.readthedocs.io/en/stable/users/providers/platform"
         },
         {
           "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
@@ -99,7 +99,7 @@
           "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/"
         },
         {
-          "message": "If you miss phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`"
+          "message": "If you miss phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests."
@@ -111,16 +111,13 @@
           "message": "You can use a more lively `ddev list` and `ddev describe` output by running `ddev config global --table-style=bright`. Try it!"
         },
         {
-          "message": "DDEV's fiscal entity is now the DDEV Foundation. We have a real focus on the long-term sustainability of the project, not just depending on Randy. https://ddev.com/foundation"
+          "message": "DDEV's fiscal entity is the DDEV Foundation. We have a real focus on the long-term sustainability of the project, not just depending on Randy. https://ddev.com/foundation"
         },
         {
-          "message": "Tag1 Consulting has become a major sponsor of DDEV with $1K/month! Stop by and thank them at https://tag1.com."
+          "message": "Tag1 Consulting is a major sponsor of DDEV with $1K/month! Stop by and thank them at https://tag1.com."
         },
         {
-          "message": "DDEV’s latest releases include PHP 8.3. We hope to have all extensions by the time 8.3 reaches general availability later this year."
-        },
-        {
-          "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis"
+          "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "View officially-supported add-ons by running `ddev get --list`, or include third-party add-ons with `ddev get --list --all`"
@@ -153,7 +150,7 @@
           "message": "Most teams check in a project’s `.ddev` directory so everybody has the same configuration. But do NOT force-add the `.ddev/.gitignore`, which is managed by DDEV."
         },
         {
-          "message": "DDEV has support for many database browsers. Newest is `ddev dbeaver` but see all the others at https://ddev.readthedocs.io/en/latest/users/usage/database-management/#database-guis"
+          "message": "DDEV has support for many database browsers. See them all at https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "Pro tip: `ddev config --auto` will update your project config to ensure it’s compatible with the version of DDEV that’s running."
@@ -171,13 +168,13 @@
           "message": "Colima has been having some growing pains in v0.6.*. If you're upgrading to it from v0.5.*, make sure you save your databases before upgrading with `ddev snapshot -a`."
         },
         {
-          "message": "In DDEV v1.22.5+ you can 'ddev pull upsun' against the new Upsun from Platform.sh."
+          "message": "Try 'ddev pull upsun' with the new Upsun from Platform.sh."
         },
         {
           "message": "DDEV v1.22.5+ has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml."
         },
         {
-          "message": "DDEV now supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
+          "message": "DDEV supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
         },
         {
           "message": "In DDEV v1.22.5+ it makes more sense to use `nodejs_version` with a full version than using `ddev nvm`, which is more complex and error-prone. You can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
