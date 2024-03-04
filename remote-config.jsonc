@@ -141,7 +141,7 @@
           "message": "You can contribute your own tips to these daily tips with a PR on https://github.com/ddev/remote-config"
         },
         {
-          "message": "DDEV's goal is to make developers happy. We hope you're happy today!"
+          "message": "DDEV's goal is to make developers happy.\nWe hope you're happy today!"
         },
         {
           "message": "If you're on macOS you may want to try the excellent new Docker provider OrbStack: https://orbstack.dev"
