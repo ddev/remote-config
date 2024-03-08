@@ -123,7 +123,7 @@
           "message": "View officially-supported add-ons by running `ddev get --list`, or include third-party add-ons with `ddev get --list --all`"
         },
         {
-          "message": "VS Code users: have you tried the new DDEV VS Code extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
+          "message": "VS Code users: have you tried the DDEV VS Code extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
         },
         {
           "message": "PhpStorm users: you'll love the DDEV Integration Plugin for PhpStorm! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
@@ -168,7 +168,7 @@
           "message": "Colima has been having some growing pains in v0.6.*. If you're upgrading to it from v0.5.*, make sure you save your databases before upgrading with `ddev snapshot -a`."
         },
         {
-          "message": "Try 'ddev pull upsun' with the new Upsun from Platform.sh."
+          "message": "Try 'ddev pull upsun' with Upsun from Platform.sh, https://upsun.com"
         },
         {
           "message": "DDEV v1.22.5+ has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml."
@@ -178,6 +178,9 @@
         },
         {
           "message": "In DDEV v1.22.5+ it makes more sense to use `nodejs_version` with a full version than using `ddev nvm`, which is more complex and error-prone. You can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
+        },
+        {
+          "message": "DDEV 2024 plans: https://ddev.com/blog/2024-plans"
         },
         {
           "message": "Did you know that DDEV has support for python projects like Django? We'd love to have your feedback!"
@@ -190,6 +193,21 @@
         },
         {
           "message": "DDEV allows you to rapidly profile the performance of your PHP code using xhprof with `ddev xhprof on`."
+        },
+        {
+          "message": "Platform.sh is the lead sponsor of DDEV, paying Randy's salary! Stop by and thank them at https://platform.sh."
+        },
+        {
+          "message": "A key DDEV goal this year is to train and fund a third paid maintainer."
+        },
+        {
+          "message": "Take a moment to read the DDEV 2023 review: https://ddev.com/blog/2023-review"
+        },
+        {
+          "message": "It's the DDEV community that makes DDEV what it is. THANK YOU!"
+        },
+        {
+          "message": "Don't forget to upgrade DDEV! https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/"
         }
       ]
     }
