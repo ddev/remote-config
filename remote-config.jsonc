@@ -225,15 +225,17 @@
           "message": "If you use the new 'drupal' or 'cakephp' project types for your project, use 'ddev_version_constraint: v1.23.0-alpha1' to make sure your team members have a version that supports them."
         },
         {
-          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on a minimum DDEV version, for example 'ddev_version_constraint: v1.23.0-alpha1'"
+          "message": "DDEV v1.23.0 ddev-webserver is based on Debian 12 Bookworm. If you use custom webimage_extra_packages or .ddev/web-build/Dockerfile you may have to adjust them. For example, the old 'python' package is gone (but python3 is already there for you)."
         },
         {
           "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management', more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
         },
         {
-          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on a minimum DDEV version, for example 'ddev_version_constraint: v1.23.0-alpha1'"
+          "message": "Are you using DDEV in CI or other automated testing? If so, please turn off instrumentation, `ddev config global --instrumentation-opt-in=false` or `export DDEV_NO_INSTRUMENTATION=true`"
         },
-
+        {
+          "message": "Want to try a beautiful improvement of Xhprof user experience for profiling your code? Try out @tyler36's ddev/ddev-xhgui, https://github.com/tyler36/ddev-xhgui"
+        },
         {
           "message": "Don't forget to upgrade DDEV! https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/"
         }
