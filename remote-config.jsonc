@@ -33,7 +33,7 @@
           "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k"
         },
         {
-          "message": "Contributor training will start up soon every Wednesday, sign up! https://ddev.com/blog/contributor-training/"
+          "message": "Sign up for the weekly contribution training on Wednesdays, it's coming up soon! https://ddev.com/blog/contributor-training/"
         },
         {
           "message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
@@ -156,7 +156,7 @@
           "message": "Pro tip: `ddev config --auto` will update your project config to ensure it’s compatible with the version of DDEV that’s running, but it won't change configured values."
         },
         {
-          "message": "The new `ddev config --update` will change your project config where possible based ont he code that is discovered in your project."
+          "message": "The new `ddev config --update` will change your project config where possible based on the code that is discovered in your project."
         },
         {
           "message": "Consider removing `router_http_port`, `router_https_port` and `nodejs_version` from a project’s `config.yaml` so it can use the defaults."
@@ -165,7 +165,7 @@
           "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev launch -m` to get the Mailpit UI."
         },
         {
-          "message": "DDEV has official support for OrbStack and Rancher Desktop on macOS in addition to Lima and Docker Desktop. Colima is now discouraged."
+          "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima and Docker Desktop. Colima is now discouraged."
         },
         {
           "message": "Colima has been having some growing pains in v0.6.*. If you're upgrading to it from v0.5.*, make sure you save your databases before upgrading with `ddev snapshot -a`."
@@ -189,7 +189,7 @@
           "message": "Did you know that DDEV has support for python projects like Django? We'd love to have your feedback!"
         },
         {
-          "message": "DDEV v1.23 changes default for new projects, using PHP 8.2, MariaDB 10.11, Node.JS 20, and ddev-webserver is based on Debian 12 Bookworm."
+          "message": "DDEV v1.23 changes some defaults for new projects, using PHP 8.2, MariaDB 10.11, and Node.JS 20. ddev-webserver is now based on Debian 12 Bookworm."
         },
         {
           "message": "DDEV Swag is finally available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
@@ -201,7 +201,7 @@
           "message": "Platform.sh is the lead sponsor of DDEV, paying Randy's salary! Stop by and thank them at https://platform.sh."
         },
         {
-          "message": "A key DDEV goal for 2024 is to train and fund a third paid maintainer."
+          "message": "A key goal for DDEV in 2024 is to train and fund a third paid maintainer."
         },
         {
           "message": "Take a moment to read the DDEV 2023 review: https://ddev.com/blog/2023-review"
@@ -210,28 +210,28 @@
           "message": "It's the DDEV community that makes DDEV what it is. THANK YOU!"
         },
         {
-          "message": "The DDEV Foundation is now an official US 501(c)(3) organization, meaning it doesn't have to pay taxes and contributions to it are tax-deductible. https://ddev.com/blog/501c3/"
+          "message": "The DDEV Foundation is now an official US 501(c)(3) organization. That means the foundation doesn't have to pay taxes and any financial contribution to it is tax-deductible. https://ddev.com/blog/501c3/"
         },
         {
           "message": "Have you ever wondered how 'ddev.site' domain names work? Read all about it at https://ddev.com/blog/ddev-name-resolution-wildcards"
         },
         {
-          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on a minimum DDEV version, for example `ddev_version_constraint: '>=v1.23.0'`"
+          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.23.0'`"
         },
         {
           "message": "If you use the new 'drupal' or 'cakephp' project types for your project, use `ddev_version_constraint: '>=v1.23.0'` to make sure your team members have a version that supports them."
         },
         {
-          "message": "DDEV v1.23.0 ddev-webserver is based on Debian 12 Bookworm. If you use custom webimage_extra_packages or .ddev/web-build/Dockerfile you may have to adjust them. For example, the old 'python' package is gone (but python3 is already there for you)."
+          "message": "DDEV v1.23.0 ddev-webserver is based on Debian 12 Bookworm. If you use custom webimage_extra_packages or .ddev/web-build/Dockerfile you may have to adjust them. For example, the old 'python' package is gone, but python3 is already there for you."
         },
         {
-          "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management', more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
+          "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management`, more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
         },
         {
-          "message": "Are you using DDEV in CI or other automated testing? If so, please turn off instrumentation, `ddev config global --instrumentation-opt-in=false` or `export DDEV_NO_INSTRUMENTATION=true`"
+          "message": "Are you using DDEV in Continuous Integration (CI) or any kind of automated testing? If so, please turn off instrumentation, `ddev config global --instrumentation-opt-in=false` or `export DDEV_NO_INSTRUMENTATION=true`"
         },
         {
-          "message": "Want to try a beautiful improvement of Xhprof user experience for profiling your code? Try out @tyler36's ddev/ddev-xhgui, https://github.com/tyler36/ddev-xhgui"
+          "message": "Want to profile your code in an improved more beautiful manner with Xhprof? Try out @tyler36's ddev/ddev-xhgui, https://github.com/tyler36/ddev-xhgui"
         },
         {
           "message": "DDEV v1.23.0 introduces Drupal 11 support and the `drupal` project type, so we don't have to do a new project type for every release. https://github.com/ddev/ddev/releases/tag/v1.23.0"
@@ -240,14 +240,14 @@
           "message": "DDEV now has explicit support for CakePHP!"
         },
         {
-          "message": "DDEV v1.23.0 introduces `corepack: enable` to help your yarn and pnpm projects automatically use the right version."
+          "message": "DDEV v1.23.0 introduces `corepack_enable: true` to help your yarn and pnpm projects automatically use the right version."
         },
         {
-          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can `ddev get --list` to see officially supported add-ons and `ddev get --list --all` to see them all. A plan for this year is to provide an easier registry for them."
+          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can execute `ddev get --list` to see officially supported add-ons, and `ddev get --list --all` to see all of them. A plan for this year is to provide an easier registry for them."
         },
 
         {
-          "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (ARM64 and AMD64), Windows WSL2, traditional Windows, and Linux (AMD64 and ARM64). It's hours and hours of mostly functional testing on many platforms."
+          "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (ARM64 and AMD64), Windows WSL2, traditional Windows, and Linux (AMD64 and ARM64). It's hours and hours of mostly functional testing on all the major platforms."
         },
         {
           "message": "Don't forget to upgrade DDEV! https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/"
