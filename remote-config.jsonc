@@ -189,7 +189,7 @@
           "message": "Did you know that DDEV has support for python projects like Django? We'd love to have your feedback!"
         },
         {
-          "message": "DDEV v1.23 changes for projects, using PHP 8.2, MariaDB 10.11, and ddev-webserver is based on Debian 12 Bookworm."
+          "message": "DDEV v1.23 changes default for new projects, using PHP 8.2, MariaDB 10.11, Node.JS 20, and ddev-webserver is based on Debian 12 Bookworm."
         },
         {
           "message": "DDEV Swag is finally available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
