@@ -213,10 +213,7 @@
           "message": "The DDEV Foundation is now an official US 501(c)(3) organization, meaning it doesn't have to pay taxes and contributions to it are tax-deductible. https://ddev.com/blog/501c3/"
         },
         {
-          "message": "Have you every wondered how 'ddev.site' domain names work? Read all about it at https://ddev.com/blog/ddev-name-resolution-wildcards"
-        },
-        {
-          "message": "Have you every wondered how 'ddev.site' domain names work? Read all about it at https://ddev.com/blog/ddev-name-resolution-wildcards"
+          "message": "Have you ever wondered how 'ddev.site' domain names work? Read all about it at https://ddev.com/blog/ddev-name-resolution-wildcards"
         },
         {
           "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on a minimum DDEV version, for example `ddev_version_constraint: '>=v1.23.0-alpha1'`"
