@@ -237,6 +237,22 @@
           "message": "Want to try a beautiful improvement of Xhprof user experience for profiling your code? Try out @tyler36's ddev/ddev-xhgui, https://github.com/tyler36/ddev-xhgui"
         },
         {
+          "message": "DDEV v1.23.0 introduces Drupal 11 support and the `drupal` project type, so we don't have to do a new project type for every release. https://github.com/ddev/ddev/releases/tag/v1.23.0"
+        },
+        {
+          "message": "DDEV now has explicit support for CakePHP!"
+        },
+        {
+          "message": "DDEV v1.23.0 introduces `corepack: enable` to help your yarn and pnpm projects automatically use the right version."
+        },
+        {
+          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can `ddev get --list` to see officially supported add-ons and `ddev get --list --all` to see them all. A plan for this year is to provide an easier registry for them."
+        },
+
+        {
+          "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (ARM64 and AMD64), Windows WSL2, traditional Windows, and Linux (AMD64 and ARM64). It's hours and hours of mostly functional testing on many platforms."
+        },
+        {
           "message": "Don't forget to upgrade DDEV! https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/"
         }
       ]
