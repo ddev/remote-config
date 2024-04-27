@@ -153,7 +153,7 @@
           "message": "DDEV has support for many database browsers. See them all at https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
-          "message": "Pro tip: `ddev config --auto` will update your project config to ensure it’s compatible with the version of DDEV that’s running, but it won't change configured values."
+          "message": "Pro tip: `ddev config --auto` will update your project config to remove items that are obsolete (and update some), but it won't change configured values."
         },
         {
           "message": "The new `ddev config --update` will change your project config where possible based on the code that is discovered in your project."
