@@ -231,7 +231,7 @@
           "message": "Are you using DDEV in Continuous Integration (CI) or any kind of automated testing? If so, please turn off instrumentation, `ddev config global --instrumentation-opt-in=false` or `export DDEV_NO_INSTRUMENTATION=true`"
         },
         {
-          "message": "Want to profile your code in an improved more beautiful manner with Xhprof? Try out @tyler36's ddev/ddev-xhgui, https://github.com/tyler36/ddev-xhgui"
+          "message": "Want to profile your code in an improved more beautiful manner with Xhprof? Try out @tyler36's https://github.com/ddev/ddev-xhgui"
         },
         {
           "message": "DDEV v1.23.0 introduces Drupal 11 support and the `drupal` project type, so we don't have to do a new project type for every release. https://github.com/ddev/ddev/releases/tag/v1.23.0"
