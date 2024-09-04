@@ -165,9 +165,6 @@
           "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima and Docker Desktop. Colima is now discouraged."
         },
         {
-          "message": "Colima has been having some growing pains in v0.6.*. If you're upgrading to it from v0.5.*, make sure you save your databases before upgrading with `ddev snapshot -a`."
-        },
-        {
           "message": "Try 'ddev pull upsun' with Upsun from Platform.sh, https://upsun.com"
         },
         {
@@ -245,6 +242,39 @@
         },
         {
           "message": "Don't forget to upgrade DDEV! https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/"
+        },
+        {
+          "message": "DDEV goes to great lengths to keep you and your projects working. See the recent event where MariaDB changed their dump file format, https://ddev.com/blog/mariadb-dump-breaking-change"
+        },
+        {
+          "message": "`ddev .` is a shortcut for `ddev exec`, so you can `ddev . ls` for example."
+        },
+        {
+          "message": "Organizations that donate $1000/month or more to the DDEV Foundation get their own special thank-you as a tip-of-the-day! Your organization can be here."
+        },
+        {
+          "message": "There are more than 400 great questions and answers about DDEV on Stack Overflow, see https://stackoverflow.com/tags/ddev"
+        },
+        {
+          "message": "You can use `cloudflared` as well as `ngrok` for sharing projects with others, see https://stackoverflow.com/questions/78729503/drupal-10-multisite-using-ddev-share-or-cloudflare/78744731#78744731"
+        },
+        {
+          "message": "You can use `http` URLs with any project alongside the `https` URLs, just see `ddev describe` to show them."
+        },
+        {
+          "message": "Interested in backup techniques for your DDEV projects? https://ddev.com/blog/ddev-backups"
+        },
+        {
+          "message": "If you leave the `name` out of your `.ddev/config.yaml` then the project will take the name of the directory it's in."
+        },
+        {
+          "message": "Look how many DDEV quickstarts for CMSs and frameworks there are now! https://ddev.readthedocs.io/en/stable/users/quickstart/"
+        },
+        {
+          "message": "Vite in DDEV thanks to Matthias Andrasch: https://ddev.com/blog/working-with-vite-in-ddev/"
+        },
+        {
+          "message": "macOS Docker provider comparisons, https://ddev.com/blog/docker-performance-2023 - what's working for you?"
         }
       ]
     }
