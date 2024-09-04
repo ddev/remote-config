@@ -120,10 +120,10 @@
           "message": "View officially-supported add-ons by running `ddev get --list`, or include third-party add-ons with `ddev get --list --all`"
         },
         {
-          "message": "VS Code users love the DDEV VS Code extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
+          "message": "VS Code users love the DDEV Manager extension! https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
         },
         {
-          "message": "PhpStorm users love the DDEV Integration Plugin for PhpStorm! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
+          "message": "PhpStorm users love the DDEV Integration Plugin! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
         },
         {
           "message": "Did you know you can set environment variables with the `.ddev/.env` file?"
@@ -177,7 +177,7 @@
           "message": "DDEV 2024 plans: https://ddev.com/blog/2024-plans"
         },
         {
-          "message": "Did you know that DDEV has experimental support for python projects like Django? We'd love to have your feedback!"
+          "message": "Did you know that DDEV has experimental support for Python projects like Django? We'd love to have your feedback!"
         },
         {
           "message": "DDEV v1.23 changed some defaults for new projects, using PHP 8.2, MariaDB 10.11, and Node.JS 20. ddev-webserver is now based on Debian 12 Bookworm."
@@ -186,7 +186,7 @@
           "message": "DDEV Swag is finally available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
         },
         {
-          "message": "DDEV allows you to rapidly profile the performance of your PHP code using xhprof with `ddev xhprof on`. Try out https://github.com/ddev/ddev-xhgui !"
+          "message": "DDEV allows you to rapidly profile the performance of your PHP code using XHProf with `ddev xhprof on`. Try out https://github.com/ddev/ddev-xhgui !"
         },
         {
           "message": "Platform.sh is the lead sponsor of DDEV, paying Randy's salary! Stop by and thank them at https://platform.sh."
