@@ -33,7 +33,7 @@
           "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k"
         },
         {
-          "message": "Sign up for the weekly contribution training on Wednesdays, it's coming up soon! https://ddev.com/blog/contributor-training/"
+          "message": "Sign up for Contributor training, upcoming sessions at https://www.meetup.com/ddev-events/events/"
         },
         {
           "message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
@@ -48,10 +48,10 @@
           "message": "Don’t forget to read the docs! https://ddev.readthedocs.io/"
         },
         {
-          "message": "DDEV needs *you* as a financial sponsor! https://github.com/sponsors/ddev"
+          "message": "DDEV needs *you* and *your organization* as a financial sponsor! https://github.com/sponsors/ddev"
         },
         {
-          "message": "Use `ddev exec` to run commands in your web container."
+          "message": "Use `ddev exec` or `ddev .` to run commands in your web container."
         },
         {
           "message": "`ddev snapshot` is great to get a quick copy of your database. `ddev help snapshot`"
@@ -75,16 +75,13 @@
           "message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/stable/users/usage/faq"
         },
         {
-          "message": "Platform.sh sponsors DDEV by paying its lead maintainer to work on DDEV full time!"
-        },
-        {
           "message": "Need to get the database and files from your Platform.sh stack? Try `ddev pull platform`! https://ddev.readthedocs.io/en/stable/users/providers/platform"
         },
         {
           "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
         },
         {
-          "message": "`ddev npm` is the right way to run npm commands in your web container."
+          "message": "`ddev npm` is usually the best way to run npm commands in your web container."
         },
         {
           "message": "`ddev yarn` is a great way to run yarn commands in your web container."
@@ -99,7 +96,7 @@
           "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/"
         },
         {
-          "message": "If you miss phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
+          "message": "For phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests."
@@ -123,16 +120,16 @@
           "message": "View officially-supported add-ons by running `ddev get --list`, or include third-party add-ons with `ddev get --list --all`"
         },
         {
-          "message": "VS Code users: have you tried the DDEV VS Code extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
+          "message": "VS Code users love the DDEV VS Code extension? https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
         },
         {
-          "message": "PhpStorm users: you'll love the DDEV Integration Plugin for PhpStorm! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
+          "message": "PhpStorm users love the DDEV Integration Plugin for PhpStorm! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
         },
         {
           "message": "Did you know you can set environment variables with the `.ddev/.env` file?"
         },
         {
-          "message": "Run `ddev logs --follow --time` for insights on crashed containers or other misbehavior."
+          "message": "Run `ddev logs -f --time` for insights on crashed containers or other misbehavior."
         },
         {
           "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute at https://ddev.com/blog/ddev-website-for-contributors/"
@@ -159,7 +156,7 @@
           "message": "The new `ddev config --update` will change your project config where possible based on the code that is discovered in your project."
         },
         {
-          "message": "Consider removing `router_http_port`, `router_https_port` and `nodejs_version` from a project’s `config.yaml` so it can use the defaults."
+          "message": "Consider removing `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` from a project’s `config.yaml` so it can use the defaults."
         },
         {
           "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev launch -m` to get the Mailpit UI."
@@ -174,9 +171,6 @@
           "message": "Try 'ddev pull upsun' with Upsun from Platform.sh, https://upsun.com"
         },
         {
-          "message": "DDEV v1.22.5+ has a rewritten Acquia provider, so you can 'ddev pull acquia' without editing acquia.yaml."
-        },
-        {
           "message": "DDEV supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
         },
         {
@@ -186,7 +180,7 @@
           "message": "DDEV 2024 plans: https://ddev.com/blog/2024-plans"
         },
         {
-          "message": "Did you know that DDEV has support for python projects like Django? We'd love to have your feedback!"
+          "message": "Did you know that DDEV has experimental support for python projects like Django? We'd love to have your feedback!"
         },
         {
           "message": "DDEV v1.23 changes some defaults for new projects, using PHP 8.2, MariaDB 10.11, and Node.JS 20. ddev-webserver is now based on Debian 12 Bookworm."
@@ -195,13 +189,13 @@
           "message": "DDEV Swag is finally available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
         },
         {
-          "message": "DDEV allows you to rapidly profile the performance of your PHP code using xhprof with `ddev xhprof on`."
+          "message": "DDEV allows you to rapidly profile the performance of your PHP code using xhprof with `ddev xhprof on`. Try out https://github.com/ddev/ddev-xhgui !"
         },
         {
           "message": "Platform.sh is the lead sponsor of DDEV, paying Randy's salary! Stop by and thank them at https://platform.sh."
         },
         {
-          "message": "A key goal for DDEV in 2024 is to train and fund a third paid maintainer."
+          "message": "A key goal for DDEV in 2024 is to make it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/"
         },
         {
           "message": "Take a moment to read the DDEV 2023 review: https://ddev.com/blog/2023-review"
@@ -234,13 +228,13 @@
           "message": "Want to profile your code in an improved more beautiful manner with Xhprof? Try out @tyler36's https://github.com/ddev/ddev-xhgui"
         },
         {
-          "message": "DDEV v1.23.0 introduces Drupal 11 support and the `drupal` project type, so we don't have to do a new project type for every release. https://github.com/ddev/ddev/releases/tag/v1.23.0"
+          "message": "DDEV v1.23.0 introduced Drupal 11 support and the `drupal` project type, so we don't have to do a new project type for every release. https://github.com/ddev/ddev/releases/tag/v1.23.0"
         },
         {
           "message": "DDEV now has explicit support for CakePHP!"
         },
         {
-          "message": "DDEV v1.23.0 introduces `corepack_enable: true` to help your yarn and pnpm projects automatically use the right version."
+          "message": "DDEV v1.23.0 introduced `corepack_enable: true` to help your yarn and pnpm projects automatically use the right version."
         },
         {
           "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can execute `ddev get --list` to see officially supported add-ons, and `ddev get --list --all` to see all of them. A plan for this year is to provide an easier registry for them."
