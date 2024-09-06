@@ -81,7 +81,7 @@
           "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
         },
         {
-          "message": "`ddev npm` is usually the best way to run npm commands in your web container."
+          "message": "`ddev npm` is usually the best way to run npm commands for your codebase, since it respects the nodejs_version you have configured."
         },
         {
           "message": "`ddev yarn` is a great way to run yarn commands in your web container."
@@ -96,7 +96,7 @@
           "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/"
         },
         {
-          "message": "For phpMyAdmin in DDEV, run `ddev get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
+          "message": "To add phpMyAdmin to your DDEV project, run `ddev get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests."
@@ -271,13 +271,16 @@
           "message": "Look how many DDEV quickstarts for CMSs and frameworks there are now! https://ddev.readthedocs.io/en/stable/users/quickstart/"
         },
         {
-          "message": "Vite in DDEV thanks to Matthias Andrasch: https://ddev.com/blog/working-with-vite-in-ddev/"
+          "message": "Read about Vite in DDEV, thanks to Matthias Andrasch: https://ddev.com/blog/working-with-vite-in-ddev/"
         },
         {
           "message": "macOS Docker provider comparisons, https://ddev.com/blog/docker-performance-2023 - what's working for you?"
         },
         {
           "message": "DDEV already supports PHP 8.4!"
+        },
+        {
+          "message": "`ddev aliases` will show you the alternate versions of commands you can use. For example, `ddev st` for `ddev describe`."
         }
       ]
     }
