@@ -33,7 +33,7 @@
           "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k"
         },
         {
-          "message": "Sign up for Contributor training, upcoming sessions at https://www.meetup.com/ddev-events/events/"
+          "message": "Sign up for Contributor training! The upcoming sessions are at https://www.meetup.com/ddev-events/events/"
         },
         {
           "message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
