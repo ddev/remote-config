@@ -194,21 +194,21 @@
         {
           "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.0'`"
         },
-		{
-		  "message": "Explicit support for the `symfony` project type was added in DDEV v1.24.0, so now you can `ddev config --project-type=symfony`."
-		},
-		{
-		  "message": "Want to know more about using vite with DDEV? The Vite blog is superbly maintained by Matthias Andrasch with the latest information: https://ddev.com/blog/working-with-vite-in-ddev/"
-		},
+        {
+          "message": "Explicit support for the `symfony` project type was added in DDEV v1.24.0, so now you can `ddev config --project-type=symfony`."
+        },
+        {
+          "message": "Want to know more about using vite with DDEV? The Vite blog is superbly maintained by Matthias Andrasch with the latest information: https://ddev.com/blog/working-with-vite-in-ddev/"
+        },
         {
           "message": "If you use the new 'symfony' project type for your project, use `ddev_version_constraint: '>=v1.24.0'` to make sure your team members have a version that supports them."
         },
-		{
-			"message": "The ddev-browsersync add-on lets you quickly and easily add Browsersync to your project, see https://github.com/ddev/ddev-browsersync - thanks to @tyler36"
-		},
-		{
-		  "message": "Did you know you can set environment variables for any container with `.ddev/.env` and `.ddev/.env.*` files? See docs at https://ddev.readthedocs.io/en/stable/users/extend/customization-extendibility/#environment-variables-for-containers-and-services"
-		},
+        {
+          "message": "The ddev-browsersync add-on lets you quickly and easily add Browsersync to your project, see https://github.com/ddev/ddev-browsersync - thanks to @tyler36"
+        },
+        {
+          "message": "Did you know you can set environment variables for any container with `.ddev/.env` and `.ddev/.env.*` files? See docs at https://ddev.readthedocs.io/en/stable/users/extend/customization-extendibility/#environment-variables-for-containers-and-services"
+        },
         {
           "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management`, more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
         },
