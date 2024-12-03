@@ -90,13 +90,13 @@
           "message": "`ddev snapshot -a` will back up all your project databases."
         },
         {
-          "message": "You're invited to the DDEV Advisory Group, bimonthly on first Wednesday"
+          "message": "You're invited to the DDEV Advisory Group, bimonthly on first Wednesday, see the schedule and sign up at https://www.meetup.com/ddev-events/"
         },
         {
           "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/"
         },
         {
-          "message": "To add phpMyAdmin to your DDEV project, run `ddev get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
+          "message": "To add phpMyAdmin to your DDEV project, run `ddev add-on get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests."
@@ -117,16 +117,13 @@
           "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
-          "message": "View officially-supported add-ons by running `ddev get --list`, or include third-party add-ons with `ddev get --list --all`"
+          "message": "View officially-supported add-ons by running `ddev add-on list`, or include third-party add-ons with `ddev add-on list --all`"
         },
         {
           "message": "VS Code users love the DDEV Manager extension! https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
         },
         {
           "message": "PhpStorm users love the DDEV Integration Plugin! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
-        },
-        {
-          "message": "Did you know you can set environment variables with the `.ddev/.env` file?"
         },
         {
           "message": "Run `ddev logs -f --time` for insights on crashed containers or other misbehavior."
@@ -141,9 +138,6 @@
           "message": "DDEV's goal is to make developers happy.\nWe hope you're happy today!"
         },
         {
-          "message": "If you're on macOS you may want to try the excellent new Docker provider OrbStack: https://orbstack.dev"
-        },
-        {
           "message": "Most teams check in a project’s `.ddev` directory so everybody has the same configuration. But do NOT force-add the `.ddev/.gitignore`, which is managed by DDEV."
         },
         {
@@ -156,7 +150,7 @@
           "message": "The new `ddev config --update` will change your project config where possible based on the code that is discovered in your project."
         },
         {
-          "message": "Consider removing `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` from a project’s `config.yaml` so it can use the defaults."
+          "message": "Consider removing `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` from a project’s `config.yaml` so it can use the global defaults."
         },
         {
           "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev launch -m` to get the Mailpit UI."
@@ -174,16 +168,10 @@
           "message": "These days it makes more sense to use `nodejs_version` with a full version than using `ddev nvm`, which is more complex and error-prone. You can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
         },
         {
-          "message": "DDEV 2024 plans: https://ddev.com/blog/2024-plans"
+          "message": "DDEV v1.24 changed some defaults for new projects, using PHP 8.3 and Node.JS 22."
         },
         {
-          "message": "Did you know that DDEV has experimental support for Python projects like Django? We'd love to have your feedback!"
-        },
-        {
-          "message": "DDEV v1.23 changed some defaults for new projects, using PHP 8.2, MariaDB 10.11, and Node.JS 20. ddev-webserver is now based on Debian 12 Bookworm."
-        },
-        {
-          "message": "DDEV Swag is finally available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
+          "message": "DDEV Swag is available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
         },
         {
           "message": "DDEV allows you to rapidly profile the performance of your PHP code using XHProf with `ddev xhprof on`. Try out https://github.com/ddev/ddev-xhgui !"
@@ -195,26 +183,32 @@
           "message": "A key goal for DDEV in 2024 is to make it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/"
         },
         {
-          "message": "Take a moment to read the DDEV 2023 review: https://ddev.com/blog/2023-review"
-        },
-        {
           "message": "It's the DDEV community that makes DDEV what it is. THANK YOU!"
         },
         {
-          "message": "The DDEV Foundation is now an official US 501(c)(3) organization. That means the foundation doesn't have to pay taxes and any financial contribution to it is tax-deductible. https://ddev.com/blog/501c3/"
+          "message": "The DDEV Foundation is an official US 501(c)(3) organization. That means the foundation doesn't have to pay taxes and any financial contribution to it is tax-deductible. https://ddev.com/blog/501c3/"
         },
         {
           "message": "Have you ever wondered how 'ddev.site' domain names work? Read all about it at https://ddev.com/blog/ddev-name-resolution-wildcards"
         },
         {
-          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.23.0'`"
+          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.0'`"
         },
+		{
+		  "message": "Explicit support for the `symfony` project type was added in DDEV v1.24.0, so now you can `ddev config --project-type=symfony`."
+		},
+		{
+		  "message": "Want to know more about using vite with DDEV? The Vite blog is superbly maintained by Matthias Andrasch with the latest information: https://ddev.com/blog/working-with-vite-in-ddev/"
+		},
         {
-          "message": "If you use the new 'drupal' or 'cakephp' project types for your project, use `ddev_version_constraint: '>=v1.23.0'` to make sure your team members have a version that supports them."
+          "message": "If you use the new 'symfony' project type for your project, use `ddev_version_constraint: '>=v1.24.0'` to make sure your team members have a version that supports them."
         },
-        {
-          "message": "DDEV v1.23.0 ddev-webserver is based on Debian 12 Bookworm. If you use custom webimage_extra_packages or .ddev/web-build/Dockerfile you may have to adjust them. For example, the old 'python' package is gone, but python3 is already there for you."
-        },
+		{
+			"message": "The ddev-browsersync add-on lets you quickly and easily add Browsersync to your project, see https://github.com/ddev/ddev-browsersync - thanks to @tyler36"
+		},
+		{
+		  "message": "Did you know you can set environment variables for any container with `.ddev/.env` and `.ddev/.env.*` files? See docs at https://ddev.readthedocs.io/en/stable/users/extend/customization-extendibility/#environment-variables-for-containers-and-services"
+		},
         {
           "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management`, more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
         },
@@ -225,16 +219,10 @@
           "message": "Want to profile your code in an improved more beautiful manner with Xhprof? Try out @tyler36's https://github.com/ddev/ddev-xhgui"
         },
         {
-          "message": "DDEV v1.23.0 introduced Drupal 11 support and the `drupal` project type, so we don't have to do a new project type for every release. https://github.com/ddev/ddev/releases/tag/v1.23.0"
+          "message": "In DDEV v1.24.0 we've gone back to using separate `drupal10` and `drupal11` project types. The `drupal` project type still works, but it's now an alias to the current stable release, `drupal11` right now."
         },
         {
-          "message": "DDEV now has explicit support for CakePHP!"
-        },
-        {
-          "message": "DDEV v1.23.0 introduced `corepack_enable: true` to help your yarn and pnpm projects automatically use the right version."
-        },
-        {
-          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can execute `ddev get --list` to see officially supported add-ons, and `ddev get --list --all` to see all of them. A plan for this year is to provide an easier registry for them."
+          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can execute `ddev add-on list` to see officially supported add-ons, and `ddev add-on list --all` to see all of them."
         },
 
         {
@@ -279,6 +267,7 @@
         {
           "message": "DDEV already supports PHP 8.4!"
         },
+
         {
           "message": "`ddev aliases` will show you the alternate versions of commands you can use. For example, `ddev st` for `ddev describe`."
         }
