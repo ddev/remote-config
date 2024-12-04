@@ -267,7 +267,6 @@
         {
           "message": "DDEV already supports PHP 8.4!"
         },
-
         {
           "message": "`ddev aliases` will show you the alternate versions of commands you can use. For example, `ddev st` for `ddev describe`."
         }
