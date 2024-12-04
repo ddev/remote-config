@@ -216,9 +216,6 @@
           "message": "Are you using DDEV in Continuous Integration (CI) or any kind of automated testing? If so, please turn off instrumentation, `ddev config global --instrumentation-opt-in=false` or `export DDEV_NO_INSTRUMENTATION=true`"
         },
         {
-          "message": "Want to profile your code in an improved more beautiful manner with Xhprof? Try out @tyler36's https://github.com/ddev/ddev-xhgui"
-        },
-        {
           "message": "In DDEV v1.24.0 we've gone back to using separate `drupal10` and `drupal11` project types. The `drupal` project type still works, but it's now an alias to the current stable release, `drupal11` right now."
         },
         {
@@ -257,9 +254,6 @@
         },
         {
           "message": "Look how many DDEV quickstarts for CMSs and frameworks there are now! https://ddev.readthedocs.io/en/stable/users/quickstart/"
-        },
-        {
-          "message": "Read about Vite in DDEV, thanks to Matthias Andrasch: https://ddev.com/blog/working-with-vite-in-ddev/"
         },
         {
           "message": "macOS Docker provider comparisons, https://ddev.com/blog/docker-performance-2023 - what's working for you?"
