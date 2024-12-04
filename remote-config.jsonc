@@ -30,7 +30,7 @@
       "interval": 20,
       "messages": [
         {
-          "message": "Join the DDEV Discord to support others and get support: https://discord.gg/hCZFfAMc5k"
+          "message": "Join the DDEV Discord to support others and get support: https://discord.com/invite/5wjP76mBJD"
         },
         {
           "message": "Sign up for Contributor training! The upcoming sessions are at https://www.meetup.com/ddev-events/events/"
@@ -153,7 +153,7 @@
           "message": "Consider removing `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` from a project’s `config.yaml` so it can use the global defaults."
         },
         {
-          "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev launch -m` to get the Mailpit UI."
+          "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev mailpit` to get the Mailpit UI."
         },
         {
           "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima and Docker Desktop. Colima is now discouraged."
