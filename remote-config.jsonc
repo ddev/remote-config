@@ -274,7 +274,7 @@
           "message": "Are you interested in how 14,000 developers are using DDEV weekly and what they're doing with it? See the latest analysis, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
         },
         {
-          "message": "DDEV support ARM64 Windows very nicely, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
+          "message": "DDEV supports ARM64 Windows very nicely, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
         }
       ]
     }
