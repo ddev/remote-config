@@ -177,7 +177,7 @@
           "message": "DDEV allows you to rapidly profile the performance of your PHP code using XHProf with `ddev xhprof on`. Try out https://github.com/ddev/ddev-xhgui !"
         },
         {
-          "message": "Platform.sh is the lead sponsor of DDEV, paying Randy's salary! Stop by and thank them at https://platform.sh."
+          "message": "Platform.sh is a generous 'partner' sponsor of DDEV! Stop by and thank them at https://platform.sh."
         },
         {
           "message": "A key goal for DDEV in 2025 is to make it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/"
@@ -263,6 +263,18 @@
         },
         {
           "message": "`ddev aliases` will show you the alternate versions of commands you can use. For example, `ddev st` for `ddev describe`."
+        },
+        {
+          "message": "DDEV v1.24.2 will have MySQL 8.4 and there's lots of database performance improvements, see https://ddev.com/blog/database-improvements"
+        },
+        {
+          "message": "Take the Open Source Pledge and include DDEV in your plans based on its value to your organization, https://ddev.com/blog/open-source-pledge"
+        },
+        {
+          "message": "Are you interested in how 14,000 developers are using DDEV weekly and what they're doing with it? See the latest analysis, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
+        },
+        {
+          "message": "DDEV support ARM64 Windows very nicely, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
         }
       ]
     }
