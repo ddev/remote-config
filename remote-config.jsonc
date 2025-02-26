@@ -19,10 +19,10 @@
     "notifications": {
       "interval": 20,
       "infos": [
-        //        {
-        //          "message": "The upstream deb.sury.org package key was unfortunately allowed to come near expiration as of 16 Feb 2024. This does not affect DDEV v1.22.7, so upgrade, but if you see warnings or errors in earlier versions during `ddev start` the easy fix is in https://github.com/ddev/ddev/issues/5795",
-        //          "versions": "<=v1.22.6"
-        //        }
+        {
+          "message": "Please upgrade to latest DDEV v1.24.3+ to avoid potential problems with new upcoming versions of Docker providers. https://github.com/ddev/ddev/releases",
+          "versions": "<v1.24.3"
+        }
       ],
       "warnings": []
     },
@@ -31,9 +31,6 @@
       "messages": [
         {
           "message": "Join the DDEV Discord to support others and get support: https://ddev.com/s/discord"
-        },
-        {
-          "message": "Sign up for Contributor training! The upcoming sessions are at https://www.meetup.com/ddev-events/events/"
         },
         {
           "message": "A 403 from your project may mean the docroot is not specified or `index.php` is missing."
@@ -81,6 +78,9 @@
           "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
         },
         {
+          "message": "In recent versions of DDEV you can use `ddev composer create-project` just as you would use `composer create-project`. You no longer need the alternate `ddev composer create` (which still works fine)."
+        },
+        {
           "message": "`ddev npm` is usually the best way to run npm commands for your codebase, since it respects the nodejs_version you have configured."
         },
         {
@@ -93,7 +93,7 @@
           "message": "You're invited to the DDEV Advisory Group, first Wednesday every two months, see the schedule and sign up at https://www.meetup.com/ddev-events/"
         },
         {
-          "message": "Sign up for the DDEV newsletter! https://ddev.com/newsletter/"
+          "message": "Please sign up for the DDEV newsletter! https://ddev.com/newsletter/"
         },
         {
           "message": "To add phpMyAdmin to your DDEV project, run `ddev add-on get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
@@ -114,10 +114,13 @@
           "message": "Tag1 Consulting is a major sponsor of DDEV with $1K/month! Stop by and thank them at https://tag1.com."
         },
         {
+          "message": "Take a look at the new web-based add-on registry, https://addons.ddev.com"
+        },
+        {
           "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
-          "message": "View officially-supported add-ons by running `ddev add-on list`, or include third-party add-ons with `ddev add-on list --all`"
+          "message": "View officially-supported add-ons by running `ddev add-on list`, or include third-party add-ons with `ddev add-on list --all`. Or visit https://addons.ddev.com"
         },
         {
           "message": "VS Code users love the DDEV Manager extension! https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
@@ -147,16 +150,16 @@
           "message": "Pro tip: `ddev config --auto` will update your project config to remove items that are obsolete (and update some), but it won't change configured values."
         },
         {
-          "message": "The new `ddev config --update` will change your project config where possible based on the code that is discovered in your project."
+          "message": "`ddev config --update` will change your project config where possible based on the code that is discovered in your project."
         },
         {
-          "message": "Consider removing `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` from a project’s `config.yaml` so it can use the global defaults."
+          "message": "Please remove `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` from a project’s `config.yaml` so it can use the global defaults."
         },
         {
           "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev mailpit` to get the Mailpit UI."
         },
         {
-          "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima and Docker Desktop. Colima is now discouraged."
+          "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima, Docker Desktop, and Colima."
         },
         {
           "message": "Try 'ddev pull upsun' with Upsun from Platform.sh, https://upsun.com"
@@ -168,7 +171,7 @@
           "message": "These days it makes more sense to use `nodejs_version` with a full version than using `ddev nvm`, which is more complex and error-prone. You can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
         },
         {
-          "message": "DDEV v1.24 changed some defaults for new projects, using PHP 8.3 and Node.JS 22."
+          "message": "DDEV v1.24 has new defaults for new projects, using PHP 8.3 and Node.JS 22."
         },
         {
           "message": "DDEV Swag is available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
@@ -183,6 +186,9 @@
           "message": "A key goal for DDEV in 2025 is to make it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/"
         },
         {
+          "message": "Where is DDEV going? Proposed 2025 goals at https://ddev.com/blog/2025-plans/ - we'd love to have your feedback!"
+        },
+        {
           "message": "It's the DDEV community that makes DDEV what it is. THANK YOU!"
         },
         {
@@ -195,14 +201,12 @@
           "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.0'`"
         },
         {
-          "message": "Explicit support for the `symfony` project type was added in DDEV v1.24.0, so now you can `ddev config --project-type=symfony`."
+          "message": "Explicit support for the `symfony` project type was added in DDEV v1.24, so now you can `ddev config --project-type=symfony`."
         },
         {
           "message": "Want to know more about using vite with DDEV? The Vite blog is superbly maintained by Matthias Andrasch with the latest information: https://ddev.com/blog/working-with-vite-in-ddev/"
         },
-        {
-          "message": "If you use the new 'symfony' project type for your project, use `ddev_version_constraint: '>=v1.24.0'` to make sure your team members have a version that supports them."
-        },
+
         {
           "message": "The ddev-browsersync add-on lets you quickly and easily add Browsersync to your project, see https://github.com/ddev/ddev-browsersync - thanks to @tyler36"
         },
@@ -212,21 +216,22 @@
         {
           "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management`, more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
         },
+
         {
-          "message": "Are you using DDEV in Continuous Integration (CI) or any kind of automated testing? If so, please turn off instrumentation, `ddev config global --instrumentation-opt-in=false` or `export DDEV_NO_INSTRUMENTATION=true`"
+          "message": "In DDEV v1.24 we've gone back to using separate `drupal10` and `drupal11` project types. The `drupal` project type still works, but it's now an alias to the current stable release, `drupal11` right now."
         },
         {
-          "message": "In DDEV v1.24.0 we've gone back to using separate `drupal10` and `drupal11` project types. The `drupal` project type still works, but it's now an alias to the current stable release, `drupal11` right now."
-        },
-        {
-          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can execute `ddev add-on list` to see officially supported add-ons, and `ddev add-on list --all` to see all of them."
+          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can execute `ddev add-on list` to see officially supported add-ons, and `ddev add-on list --all` to see all of them. Or visit https://addons.ddev.com"
         },
 
         {
-          "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (ARM64 and AMD64), Windows WSL2, traditional Windows, and Linux (AMD64 and ARM64). It's hours and hours of mostly functional testing on all the major platforms."
+          "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (Apple Silicon and Intel), Windows WSL2, traditional Windows, and Linux. It's hours and hours of mostly functional testing on all the major platforms."
         },
         {
           "message": "Don't forget to upgrade DDEV! https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/"
+        },
+        {
+          "message": "Full detail about current sponsorship situation is at https://github.com/ddev/sponsorship-data - if you'd like to help make that more visible on ddev.com, we'd love your contribution."
         },
         {
           "message": "DDEV goes to great lengths to keep you and your projects working. See the recent event where MariaDB changed their dump file format, https://ddev.com/blog/mariadb-dump-breaking-change"
@@ -253,19 +258,13 @@
           "message": "If you leave the `name` out of your `.ddev/config.yaml` then the project will take the name of the directory it's in."
         },
         {
-          "message": "Look how many DDEV quickstarts for CMSs and frameworks there are now! https://ddev.readthedocs.io/en/stable/users/quickstart/"
-        },
-        {
-          "message": "macOS Docker provider comparisons, https://ddev.com/blog/docker-performance-2023 - what's working for you?"
-        },
-        {
-          "message": "DDEV already supports PHP 8.4!"
+          "message": "New Quickstarts for Node.js types, FrankenPHP, and ProcessWire, https://ddev.readthedocs.io/en/stable/users/quickstart/"
         },
         {
           "message": "`ddev aliases` will show you the alternate versions of commands you can use. For example, `ddev st` for `ddev describe`."
         },
         {
-          "message": "DDEV v1.24.2 will have MySQL 8.4 and there's lots of database performance improvements, see https://ddev.com/blog/database-improvements"
+          "message": "DDEV v1.24.2+ has MySQL 8.4 and there's lots of database performance improvements, see https://ddev.com/blog/database-improvements"
         },
         {
           "message": "Take the Open Source Pledge and include DDEV in your plans based on its value to your organization, https://ddev.com/blog/open-source-pledge"
