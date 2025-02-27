@@ -20,7 +20,7 @@
       "interval": 20,
       "infos": [
         {
-          "message": "Please upgrade to latest DDEV v1.24.3+ to avoid potential problems with new upcoming versions of Docker providers. https://github.com/ddev/ddev/releases",
+          "message": "Please upgrade to latest DDEV v1.24.3+ to avoid potential problems with upcoming versions of Docker providers as they start to support Docker 28. https://github.com/ddev/ddev/releases",
           "versions": "<v1.24.3"
         }
       ],
@@ -114,7 +114,7 @@
           "message": "Tag1 Consulting is a major sponsor of DDEV with $1K/month! Stop by and thank them at https://tag1.com."
         },
         {
-          "message": "Take a look at the new web-based add-on registry, https://addons.ddev.com"
+          "message": "Take a look at the new web-based add-on registry at https://addons.ddev.com."
         },
         {
           "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
@@ -258,7 +258,7 @@
           "message": "If you leave the `name` out of your `.ddev/config.yaml` then the project will take the name of the directory it's in."
         },
         {
-          "message": "New Quickstarts for Node.js types, FrankenPHP, and ProcessWire, https://ddev.readthedocs.io/en/stable/users/quickstart/"
+          "message": "New Quickstarts for Node.js types, FrankenPHP, and ProcessWire are available at https://ddev.readthedocs.io/en/stable/users/quickstart/"
         },
         {
           "message": "`ddev aliases` will show you the alternate versions of commands you can use. For example, `ddev st` for `ddev describe`."
