@@ -153,7 +153,7 @@
           "message": "`ddev config --update` will change your project config where possible based on the code that is discovered in your project."
         },
         {
-          "message": "Please remove `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` from a project’s `config.yaml` so it can use the global defaults."
+          "message": "Did you know `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` are set in global defaults, you may not need them in your project anymore."
         },
         {
           "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev mailpit` to get the Mailpit UI."
@@ -206,7 +206,6 @@
         {
           "message": "Want to know more about using vite with DDEV? The Vite blog is superbly maintained by Matthias Andrasch with the latest information: https://ddev.com/blog/working-with-vite-in-ddev/"
         },
-
         {
           "message": "The ddev-browsersync add-on lets you quickly and easily add Browsersync to your project, see https://github.com/ddev/ddev-browsersync - thanks to @tyler36"
         },
@@ -216,14 +215,12 @@
         {
           "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management`, more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
         },
-
         {
           "message": "In DDEV v1.24 we've gone back to using separate `drupal10` and `drupal11` project types. The `drupal` project type still works, but it's now an alias to the current stable release, `drupal11` right now."
         },
         {
           "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can execute `ddev add-on list` to see officially supported add-ons, and `ddev add-on list --all` to see all of them. Or visit https://addons.ddev.com"
         },
-
         {
           "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (Apple Silicon and Intel), Windows WSL2, traditional Windows, and Linux. It's hours and hours of mostly functional testing on all the major platforms."
         },
