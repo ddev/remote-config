@@ -153,9 +153,6 @@
           "message": "`ddev config --update` will change your project config where possible based on the code that is discovered in your project."
         },
         {
-          "message": "Did you know `router_http_port`, `router_https_port`, `project_tld`, and `nodejs_version` are set in global defaults, you may not need them in your project anymore."
-        },
-        {
           "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev mailpit` to get the Mailpit UI."
         },
         {
