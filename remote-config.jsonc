@@ -177,7 +177,7 @@
           "message": "DDEV Swag is available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
         },
         {
-          "message": "DDEV allows you to rapidly profile the performance of your PHP code using XHProf with `ddev xhprof on`. Try out https://github.com/ddev/ddev-xhgui !"
+          "message": "DDEV v1.24.4+ has built-in support for XHGui for exploring performance issues, thanks to TYPO3 Community sponsorship and @tyler36's long and amazing stewardship though its gestation as an add-on."
         },
         {
           "message": "Platform.sh is a generous 'partner' sponsor of DDEV! Stop by and thank them at https://platform.sh."
