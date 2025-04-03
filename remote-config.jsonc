@@ -20,7 +20,7 @@
       "interval": 20,
       "infos": [
         {
-          "message": "Please upgrade to latest DDEV v1.24+ to avoid potential problems with upcoming versions of Docker providers as they start to support Docker 28. https://github.com/ddev/ddev/releases",
+          "message": "Please upgrade to latest DDEV v1.24 to avoid potential problems with upcoming versions of Docker providers as they support Docker 28. https://github.com/ddev/ddev/releases",
           "versions": "<v1.24.3"
         }
       ],
