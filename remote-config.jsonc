@@ -257,22 +257,22 @@
         {
           "message": "DDEV supports ARM64 Windows, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
         },
-		{
-		  "message": "DDEV v1.24.7 will have MariaDB 11.8 LTS, with its new vector support"
-		},
-		{
-		  "message": "DDEV v1.24.7 will have modest support for Rancher Desktop on Windows (for traditional Windows) and Docker Desktop for Linux"
-		},
-		{
-		  "message": "Understand DDEV's commitment to financial and community sustainability: https://ddev.com/blog/sustainability-for-ddev/"
-		},
-		{
-		  "message": "DDEV can even spin up ancient PHP projects with ancient database versions, even on Apple Silicon: https://ddev.com/blog/legacy-projects-with-unsupported-php-and-mysql-using-ddev"
-		},
-		{
-		  "message": "Maintaining DDEV add-ons? See latest updates at https://ddev.com/blog/ddev-add-on-maintenance-guide"
-		}
-	  ]
+        {
+          "message": "DDEV v1.24.7 will have MariaDB 11.8 LTS, with its new vector support"
+        },
+        {
+          "message": "DDEV v1.24.7 will have modest support for Rancher Desktop on Windows (for traditional Windows) and Docker Desktop for Linux"
+        },
+        {
+          "message": "Understand DDEV's commitment to financial and community sustainability: https://ddev.com/blog/sustainability-for-ddev/"
+        },
+        {
+          "message": "DDEV can even spin up ancient PHP projects with ancient database versions, even on Apple Silicon: https://ddev.com/blog/legacy-projects-with-unsupported-php-and-mysql-using-ddev"
+        },
+        {
+          "message": "Maintaining DDEV add-ons? See latest updates at https://ddev.com/blog/ddev-add-on-maintenance-guide"
+        }
+      ]
     }
   }
 }
