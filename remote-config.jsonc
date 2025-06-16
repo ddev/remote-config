@@ -33,16 +33,13 @@
           "message": "Join the DDEV Discord to support others and get support: https://ddev.com/s/discord"
         },
         {
-          "message": "A 403 from your project often means the docroot is not specified or `index.php` is missing."
-        },
-        {
           "message": "You can have as many databases as you want! https://ddev.readthedocs.io/en/stable/users/usage/faq/#can-i-use-additional-databases-with-ddev"
         },
         {
           "message": "Use `ddev describe` to get a summary of your project’s configuration."
         },
         {
-          "message": "Don’t forget to read the docs! https://ddev.readthedocs.io/"
+          "message": "Don’t forget to read and contribute to the docs! https://ddev.readthedocs.io/"
         },
         {
           "message": "DDEV needs *you* and *your organization* as a financial sponsor! https://github.com/sponsors/ddev"
@@ -78,7 +75,7 @@
           "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
         },
         {
-          "message": "In recent versions of DDEV you can use `ddev composer create-project` just as you would use `composer create-project`. You no longer need the alternate `ddev composer create` (which still works fine)."
+          "message": "In recent versions of DDEV you can use `ddev composer create-project` just as you would use `composer create-project`. You no longer need the alternate `ddev composer create` (which still works, but is deprecated)."
         },
         {
           "message": "`ddev npm` is usually the best way to run npm commands for your codebase, since it respects the nodejs_version you have configured."
@@ -99,7 +96,7 @@
           "message": "To add phpMyAdmin to your DDEV project, run `ddev add-on get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
-          "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS tests."
+          "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS automated tests."
         },
         {
           "message": "You can turn off the cell borders in `ddev describe` and `ddev list` by running `ddev config global --simple-formatting`."
@@ -120,7 +117,7 @@
           "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
         },
         {
-          "message": "View officially-supported add-ons by running `ddev add-on list`, or include third-party add-ons with `ddev add-on list --all`. Or visit https://addons.ddev.com"
+          "message": "View add-ons at https://addons.ddev.com or by running `ddev add-on list`"
         },
         {
           "message": "VS Code users love the DDEV Manager extension! https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
@@ -132,7 +129,7 @@
           "message": "Run `ddev logs -f --time` for insights on crashed containers or other misbehavior."
         },
         {
-          "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute at https://ddev.com/blog/ddev-website-for-contributors/"
+          "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute a blog at https://github.com/ddev/ddev.com"
         },
         {
           "message": "You can contribute your own tips to these daily tips with a PR on https://github.com/ddev/remote-config"
@@ -153,7 +150,7 @@
           "message": "`ddev config --update` will change your project config where possible based on the code that is discovered in your project."
         },
         {
-          "message": "Don't forget that `ddev launch` can take a URI, like `ddev launch /admin/reports/status` and don't forget `ddev mailpit` to get the Mailpit UI."
+          "message": "Don't forget that `ddev launch` can take a URI or full URL, like `ddev launch /admin/reports/status` and don't forget `ddev mailpit` to get the Mailpit UI."
         },
         {
           "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima, Docker Desktop, and Colima."
@@ -171,7 +168,7 @@
           "message": "DDEV Swag is available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
         },
         {
-          "message": "DDEV v1.24.4+ has built-in support for XHGui for exploring performance issues, thanks to TYPO3 Community sponsorship and @tyler36's long and amazing stewardship though its gestation as an add-on."
+          "message": "DDEV has built-in support for XHGui for exploring performance issues, thanks to TYPO3 Community sponsorship and @tyler36's long and amazing stewardship though its gestation as an add-on."
         },
         {
           "message": "Platform.sh is a generous 'partner' sponsor of DDEV! Stop by and thank them at https://platform.sh."
@@ -192,10 +189,10 @@
           "message": "Have you ever wondered how 'ddev.site' domain names work? Read all about it at https://ddev.com/blog/ddev-name-resolution-wildcards"
         },
         {
-          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.0'`"
+          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.6'`"
         },
         {
-          "message": "Explicit support for the `symfony` project type was added in DDEV v1.24, so now you can `ddev config --project-type=symfony`."
+          "message": "Explicit support for the `symfony` project type was added to DDEV, so now you can `ddev config --project-type=symfony`."
         },
         {
           "message": "Want to know more about using vite with DDEV? The Vite blog is superbly maintained by Matthias Andrasch with the latest information: https://ddev.com/blog/working-with-vite-in-ddev/"
@@ -210,13 +207,10 @@
           "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management`, more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
         },
         {
-          "message": "In DDEV v1.24 we've gone back to using separate `drupal10` and `drupal11` project types. The `drupal` project type still works, but it's now an alias to the current stable release, `drupal11` right now."
+          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. Visit https://addons.ddev.com"
         },
         {
-          "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. You can execute `ddev add-on list` to see officially supported add-ons, and `ddev add-on list --all` to see all of them. Or visit https://addons.ddev.com"
-        },
-        {
-          "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (Apple Silicon and Intel), Windows WSL2, traditional Windows, and Linux. It's hours and hours of mostly functional testing on all the major platforms."
+          "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (Apple Silicon and Intel), Windows WSL2 (with Mirrored mode too), traditional Windows, and Linux. It's hours and hours of mostly functional testing on all the major platforms."
         },
         {
           "message": "Don't forget to upgrade DDEV! https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/"
@@ -252,18 +246,33 @@
           "message": "`ddev aliases` will show you the alternate versions of commands you can use. For example, `ddev st` for `ddev describe`."
         },
         {
-          "message": "DDEV v1.24.2+ has MySQL 8.4 and there's lots of database performance improvements, see https://ddev.com/blog/database-improvements"
+          "message": "DDEV has MySQL 8.4 and there's lots of database performance improvements, see https://ddev.com/blog/database-improvements"
         },
         {
           "message": "Take the Open Source Pledge and include DDEV in your plans based on its value to your organization, https://ddev.com/blog/open-source-pledge"
         },
         {
-          "message": "Are you interested in how 14,000 developers are using DDEV weekly and what they're doing with it? See the latest analysis, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
+          "message": "Are you interested in how 17,000 weekly developer users are using DDEV and what they're doing with it? See the latest analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
         },
         {
-          "message": "DDEV supports ARM64 Windows very nicely, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
-        }
-      ]
+          "message": "DDEV supports ARM64 Windows, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
+        },
+		{
+		  "message": "DDEV v1.24.7 will have MariaDB 11.8 LTS, with its new vector support"
+		},
+		{
+		  "message": "DDEV v1.24.7 will have modest support for Rancher Desktop on Windows (for traditional Windows) and Docker Desktop for Linux"
+		},
+		{
+		  "message": "Understand DDEV's commitment to financial and community sustainability: https://ddev.com/blog/sustainability-for-ddev/"
+		},
+		{
+		  "message": "DDEV can even spin up ancient PHP projects with ancient database versions, even on Apple Silicon: https://ddev.com/blog/legacy-projects-with-unsupported-php-and-mysql-using-ddev"
+		},
+		{
+		  "message": "Maintaining DDEV add-ons? See latest updates at https://ddev.com/blog/ddev-add-on-maintenance-guide"
+		}
+	  ]
     }
   }
 }
