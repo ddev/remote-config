@@ -156,10 +156,13 @@
         "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima, Docker Desktop, and Colima."
       },
       {
-        "message": "On Traditional Windows, DDEV now supports Rancher Desktop in addition to Docker Desktop. However, we don't have automated testing for Rancher. https://ddev.readthedocs.io/en/stable/users/install/docker-installation/#rancher-desktop-for-windows"
+        "message": "On Traditional Windows, DDEV now supports open-source Rancher Desktop in addition to Docker Desktop. However, we don't have automated testing for Rancher. https://ddev.readthedocs.io/en/stable/users/install/docker-installation/#rancher-desktop-for-windows"
       },
       {
-        "message": "You can now use Docker Desktop for Linux on Linux with DDEV, but we recommend that you stick with the performant and reliable Docker CE. https://ddev.readthedocs.io/en/stable/users/install/docker-installation/#docker-installation-linux"
+        "message": "You can now use Docker Desktop for Linux with DDEV, but we recommend that you stick with the performant and reliable Docker CE. https://ddev.readthedocs.io/en/stable/users/install/docker-installation/#docker-installation-linux"
+      },
+      {
+        "message": "Even though we recommend Docker CE for Windows, you'd be surprised how well DDEV works with Traditional Windows these days."
       },
       {
         "message": "DDEV now has a fancy Windows installer, which will set up WSL2 with Docker CE (preferred), Docker Desktop/Rancher Desktop, or Traditional Windows. https://ddev.com/blog/watch-new-windows-installer"
