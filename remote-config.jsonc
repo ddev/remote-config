@@ -16,16 +16,16 @@
     // },
     // Ticker messages are shown once in an interval and are rotated
     // once a message was shown.
-    //    "notifications": {
-    //      "interval": 20,
-    //      "infos": [
-    //        {
-    //          "message": "Please upgrade to latest DDEV v1.24 to avoid potential problems with upcoming versions of Docker providers as they support Docker 28. https://github.com/ddev/ddev/releases",
-    //          "versions": "<v1.24.3"
-    //        }
-    //      ],
-    //      "warnings": []
-  },
+    // "notifications": {
+    //   "interval": 20,
+    //   "infos": [
+    //     {
+    //       "message": "Please upgrade to latest DDEV v1.24 to avoid potential problems with upcoming versions of Docker providers as they support Docker 28. https://github.com/ddev/ddev/releases",
+    //       "versions": "<v1.24.3"
+    //     }
+    //   ],
+    //   "warnings": []
+    // },
   "ticker": {
     "interval": 20,
     "messages": [
