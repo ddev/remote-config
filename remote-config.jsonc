@@ -33,13 +33,13 @@
           "message": "Join the DDEV Discord to support others and get support: https://ddev.com/s/discord"
         },
         {
-          "message": "You can have as many databases as you want! https://ddev.readthedocs.io/en/stable/users/usage/faq/#can-i-use-additional-databases-with-ddev"
+          "message": "You can have as many databases as you want! https://docs.ddev.com/en/stable/users/usage/faq/#can-i-use-additional-databases-with-ddev"
         },
         {
           "message": "Use `ddev describe` to get a summary of your project’s configuration."
         },
         {
-          "message": "Don’t forget to read and contribute to the docs! https://ddev.readthedocs.io/"
+          "message": "Don’t forget to read and contribute to the docs! https://docs.ddev.com/"
         },
         {
           "message": "DDEV needs *you* and *your organization* as a financial sponsor! https://github.com/sponsors/ddev"
@@ -51,7 +51,7 @@
           "message": "`ddev snapshot` is great to get a quick copy of your database. `ddev help snapshot`"
         },
         {
-          "message": "Try `ddev share` so collaborators anywhere can see your current project. https://ddev.readthedocs.io/en/stable/users/topics/sharing/"
+          "message": "Try `ddev share` so collaborators anywhere can see your current project. https://docs.ddev.com/en/stable/users/topics/sharing/"
         },
         {
           "message": "`ddev poweroff` is a great way to get back to the beginning and save resources."
@@ -63,13 +63,13 @@
           "message": "`ddev delete images` will save you some disk space by removing all ddev/ddev-* Docker images not in use by the current version of DDEV."
         },
         {
-          "message": "Different projects can communicate with each other! https://ddev.readthedocs.io/en/stable/users/usage/faq/#can-different-projects-communicate-with-each-other"
+          "message": "Different projects can communicate with each other! https://docs.ddev.com/en/stable/users/usage/faq/#can-different-projects-communicate-with-each-other"
         },
         {
-          "message": "The FAQ is a useful collection of not-obvious details: https://ddev.readthedocs.io/en/stable/users/usage/faq"
+          "message": "The FAQ is a useful collection of not-obvious details: https://docs.ddev.com/en/stable/users/usage/faq"
         },
         {
-          "message": "Need to get the database and files from your Platform.sh stack? Try `ddev pull platform`! https://ddev.readthedocs.io/en/stable/users/providers/platform"
+          "message": "Need to get the database and files from your Upsun Fixed (formerly Platform.sh) stack? Try `ddev pull platform`! https://docs.ddev.com/en/stable/users/providers/platform"
         },
         {
           "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
@@ -93,7 +93,7 @@
           "message": "Please sign up for the DDEV newsletter! https://ddev.com/newsletter/"
         },
         {
-          "message": "To add phpMyAdmin to your DDEV project, run `ddev add-on get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
+          "message": "To add phpMyAdmin to your DDEV project, run `ddev add-on get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://docs.ddev.com/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS automated tests."
@@ -111,7 +111,7 @@
           "message": "Tag1 Consulting is a major sponsor of DDEV with $1K/month! Stop by and thank them at https://tag1.com."
         },
         {
-          "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
+          "message": "Lots of database browsers work with DDEV, including TablePlus, Sequel Pro, and DBeaver. https://docs.ddev.com/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "View add-ons at https://addons.ddev.com or by running `ddev add-on list`"
@@ -138,7 +138,7 @@
           "message": "Most teams check in a project’s `.ddev` directory so everybody has the same configuration. But do NOT force-add the `.ddev/.gitignore`, which is managed by DDEV."
         },
         {
-          "message": "DDEV has support for many database browsers. See them all at https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis"
+          "message": "DDEV has support for many database browsers. See them all at https://docs.ddev.com/en/stable/users/usage/database-management/#database-guis"
         },
         {
           "message": "Pro tip: `ddev config --auto` will update your project config to remove items that are obsolete (and update some), but it won't change configured values."
@@ -156,10 +156,10 @@
           "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima, Docker Desktop, and Colima."
         },
         {
-          "message": "On Traditional Windows, DDEV now supports open-source Rancher Desktop in addition to Docker Desktop. However, we don't have automated testing for Rancher. https://ddev.readthedocs.io/en/stable/users/install/docker-installation/#rancher-desktop-for-windows"
+          "message": "On Traditional Windows, DDEV now supports open-source Rancher Desktop in addition to Docker Desktop. However, we don't have automated testing for Rancher. https://docs.ddev.com/en/stable/users/install/docker-installation/#rancher-desktop-for-windows"
         },
         {
-          "message": "You can now use Docker Desktop for Linux with DDEV, but we recommend that you stick with the performant and reliable Docker CE. https://ddev.readthedocs.io/en/stable/users/install/docker-installation/#docker-installation-linux"
+          "message": "You can now use Docker Desktop for Linux with DDEV, but we recommend that you stick with the performant and reliable Docker CE. https://docs.ddev.com/en/stable/users/install/docker-installation/#docker-installation-linux"
         },
         {
           "message": "Even though we recommend Docker CE for Windows, you'd be surprised how well DDEV works with Traditional Windows these days."
@@ -171,7 +171,7 @@
           "message": "DDEV now has a better way to edit the hosts file when it has to, read about 'ddev-hostname' at https://ddev.com/blog/ddev-hostname-security-improvements"
         },
         {
-          "message": "Try 'ddev pull upsun' with Upsun from Platform.sh, https://upsun.com"
+          "message": "Try 'ddev pull upsun' with Upsun projects, https://upsun.com"
         },
         {
           "message": "DDEV supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
@@ -186,7 +186,7 @@
           "message": "DDEV has built-in support for XHGui for exploring performance issues, thanks to TYPO3 Community sponsorship and @tyler36's long and amazing stewardship though its gestation as an add-on."
         },
         {
-          "message": "Platform.sh is a generous 'partner' sponsor of DDEV! Stop by and thank them at https://platform.sh."
+          "message": "Upsun is a generous 'partner' sponsor of DDEV! Stop by and thank them at https://upsun.com."
         },
         {
           "message": "A key goal for DDEV in 2025 is to make it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/"
@@ -216,10 +216,10 @@
           "message": "The ddev-browsersync add-on lets you quickly and easily add Browsersync to your project, see https://github.com/ddev/ddev-browsersync - thanks to @tyler36"
         },
         {
-          "message": "Did you know you can set environment variables for any container with `.ddev/.env` and `.ddev/.env.*` files? See docs at https://ddev.readthedocs.io/en/stable/users/extend/customization-extendibility/#environment-variables-for-containers-and-services"
+          "message": "Did you know you can set environment variables for any container with `.ddev/.env` and `.ddev/.env.*` files? See docs at https://docs.ddev.com/en/stable/users/extend/customization-extendibility/#environment-variables-for-containers-and-services"
         },
         {
-          "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management`, more in https://ddev.readthedocs.io/en/stable/users/usage/cms-settings/"
+          "message": "DDEV is happy to help you with settings management, for example by creating a settings.ddev.php, but it's just there to make it easier for you. Turn it off with `ddev config --disable-settings-management`, more in https://docs.ddev.com/en/stable/users/usage/cms-settings/"
         },
         {
           "message": "The most popular DDEV add-ons are phpmyadmin, redis, solr, elasticsearch, adminer, ddev-cron, and ddev-selenium-standalone-chrome. Visit https://addons.ddev.com"
@@ -228,7 +228,7 @@
           "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (Apple Silicon and Intel), Windows WSL2 (with Mirrored mode too), traditional Windows, and Linux. It's hours and hours of mostly functional testing on all the major platforms."
         },
         {
-          "message": "Don't forget to upgrade DDEV! https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/"
+          "message": "Don't forget to upgrade DDEV! https://docs.ddev.com/en/stable/users/install/ddev-upgrade/"
         },
         {
           "message": "Full detail about current sponsorship situation is at https://github.com/ddev/sponsorship-data - if you'd like to help make that more visible on ddev.com, we'd love your contribution."
@@ -283,6 +283,12 @@
         },
         {
           "message": "DDEV can even spin up ancient PHP projects with ancient database versions, even on Apple Silicon: https://ddev.com/blog/legacy-projects-with-unsupported-php-and-mysql-using-ddev"
+        },
+        {
+          "message": "Using Upsun (Flex or Fixed)? Try the new ddev-upsun add-on, see https://ddev.com/blog/ddev-upsun-platformsh-addon"
+        },
+        {
+          "message": "Complete Windows WSL2 walkthrough screencast and blog: https://ddev.com/blog/watch-ddev-local-from-scratch-with-windows-wsl2/"
         },
         {
           "message": "Maintaining a DDEV add-on? See latest recommended best practices at https://ddev.com/blog/ddev-add-on-maintenance-guide"
