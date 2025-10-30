@@ -87,7 +87,7 @@
           "message": "`ddev snapshot -a` will back up all your project databases."
         },
         {
-          "message": "You're invited to the DDEV Advisory Group, first Wednesday every two months, see the schedule and send a note to support@ddev.com to get a calendar invitation."
+          "message": "You're invited to the DDEV Advisory Group, first Wednesday every two months, see the schedule https://github.com/orgs/ddev/discussions/categories/ddev-advisory-group and send a note to support@ddev.com to get a calendar invitation."
         },
         {
           "message": "Please sign up for the DDEV newsletter! https://ddev.com/newsletter/"
