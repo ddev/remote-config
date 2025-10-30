@@ -39,6 +39,9 @@
           "message": "Use `ddev describe` to get a summary of your project’s configuration."
         },
         {
+          "message": "You are the reason for DDEV and you are its future. Let us know what works for you! https://ddev.com/contact"
+        },
+        {
           "message": "Don’t forget to read and contribute to the docs! https://docs.ddev.com/"
         },
         {
@@ -75,7 +78,7 @@
           "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
         },
         {
-          "message": "In recent versions of DDEV you can use `ddev composer create-project` just as you would use `composer create-project`. You no longer need the alternate `ddev composer create` (which still works, but is deprecated)."
+          "message": "In recent versions of DDEV you can use `ddev composer create-project` just as you would use `composer create-project`."
         },
         {
           "message": "`ddev npm` is usually the best way to run npm commands for your codebase, since it respects the nodejs_version you have configured."
@@ -126,7 +129,7 @@
           "message": "Run `ddev logs -f --time` for insights on crashed containers or other misbehavior."
         },
         {
-          "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute a blog at https://github.com/ddev/ddev.com"
+          "message": "ddev.com is open source and the perfect place to share a case study, innovative uses of DDEV, or your custom-made guides and recipes. Learn how to contribute a blog at https://ddev.com/blog/contributing-to-ddev-com/"
         },
         {
           "message": "You can contribute your own tips to these daily tips with a PR on https://github.com/ddev/remote-config"
@@ -144,6 +147,9 @@
           "message": "Pro tip: `ddev config --auto` will update your project config to remove items that are obsolete (and update some), but it won't change configured values."
         },
         {
+          "message": "In any project you can omit the `name` key from config.yaml to use the directory name as the project name. In v1.24.9+ you can make this the default behavior. It's great for working with `git subtree`."
+        },
+        {
           "message": "See something that can be improved in the docs? Click the pencil in the upper right and fix it!"
         },
         {
@@ -153,7 +159,7 @@
           "message": "Don't forget that `ddev launch` can take a URI or full URL, like `ddev launch /admin/reports/status`, and `ddev mailpit` gets you the Mailpit UI."
         },
         {
-          "message": "On macOS, DDEV officially supports OrbStack, Rancher Desktop, Lima, Docker Desktop, and Colima."
+          "message": "On macOS, DDEV officially supports many Docker providers: OrbStack, Rancher Desktop, Lima, Docker Desktop, and Colima."
         },
         {
           "message": "On Traditional Windows, DDEV now supports open-source Rancher Desktop in addition to Docker Desktop. However, we don't have automated testing for Rancher. https://docs.ddev.com/en/stable/users/install/docker-installation/#rancher-desktop-for-windows"
@@ -171,7 +177,10 @@
           "message": "DDEV now has a better way to edit the hosts file when it has to, read about 'ddev-hostname' at https://ddev.com/blog/ddev-hostname-security-improvements"
         },
         {
-          "message": "Try 'ddev pull upsun' with Upsun projects, https://upsun.com"
+          "message": "Try 'ddev pull upsun' with Upsun projects, https://upsun.com. In DDEV v1.24.9+ you hardly have to do any config at all to use it."
+        },
+        {
+          "message": "DDEV v1.24.9+ supports PHP 8.5; some extensions are missing but will be supported as support lands upstream in deb.sury.org."
         },
         {
           "message": "DDEV supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
@@ -189,7 +198,7 @@
           "message": "Upsun is a generous 'partner' sponsor of DDEV! Stop by and thank them at https://upsun.com."
         },
         {
-          "message": "A key goal for DDEV in 2025 is to make it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/"
+          "message": "Your support for DDEV in 2025 has made it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/ - stop by and thank him for all he's done!"
         },
         {
           "message": "Where is DDEV going? See DDEV's goals at https://ddev.com/blog/2025-plans/ - we'd love to have your feedback!"
@@ -207,7 +216,7 @@
           "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.6'`"
         },
         {
-          "message": "Explicit support for the `symfony` project type was added to DDEV, so now you can `ddev config --project-type=symfony`."
+          "message": "DDEV has explicit support for the `symfony` project type, so you can `ddev config --project-type=symfony`."
         },
         {
           "message": "Want to know more about using vite with DDEV? The Vite blog is superbly maintained by Matthias Andrasch with the latest information: https://ddev.com/blog/working-with-vite-in-ddev/"
@@ -231,7 +240,7 @@
           "message": "Don't forget to upgrade DDEV! https://docs.ddev.com/en/stable/users/install/ddev-upgrade/"
         },
         {
-          "message": "Full detail about current sponsorship situation is at https://github.com/ddev/sponsorship-data - if you'd like to help make that more visible on ddev.com, we'd love your contribution."
+          "message": "Full detail about current sponsorship situation is at https://github.com/ddev/sponsorship-data"
         },
         {
           "message": "`ddev .` is a shortcut for `ddev exec`, so you can `ddev . ls` for example."
@@ -243,16 +252,13 @@
           "message": "There are more than 400 great questions and answers about DDEV on Stack Overflow, see https://stackoverflow.com/tags/ddev"
         },
         {
-          "message": "You can use `cloudflared` as well as `ngrok` for sharing projects with others, see https://stackoverflow.com/questions/78729503/drupal-10-multisite-using-ddev-share-or-cloudflare/78744731#78744731"
+          "message": "You can use `cloudflared` as well as `ngrok` for sharing projects with others, see https://github.com/davo20019/ddev-share-cf and https://stackoverflow.com/questions/78729503/drupal-10-multisite-using-ddev-share-or-cloudflare/78744731#78744731"
         },
         {
           "message": "You can use `http` URLs with any project alongside the `https` URLs, see `ddev describe` to show them."
         },
         {
           "message": "Interested in backup techniques for your DDEV projects? https://ddev.com/blog/ddev-backups"
-        },
-        {
-          "message": "If you leave the `name` out of your `.ddev/config.yaml` then the project will take the name of the directory it's in."
         },
         {
           "message": "FrankenPHP: Read two different ways to experiment with it in DDEV, https://ddev.com/blog/using-frankenphp-with-ddev"
@@ -270,7 +276,7 @@
           "message": "Take the Open Source Pledge and include DDEV in your plans based on its value to your organization, https://ddev.com/blog/open-source-pledge"
         },
         {
-          "message": "Are you interested in how 17,000 weekly developer users are using DDEV and what they're doing with it? See the latest analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
+          "message": "Are you interested in how 18,000+ weekly developer users are using DDEV and what they're doing with it? See analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
         },
         {
           "message": "DDEV supports ARM64 Windows, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
@@ -289,6 +295,9 @@
         },
         {
           "message": "Complete Windows WSL2 walkthrough screencast and blog: https://ddev.com/blog/watch-ddev-local-from-scratch-with-windows-wsl2/"
+        },
+        {
+          "message": "Install DDEV from scratch on Linux in 10 minutes: https://ddev.com/blog/ddev-on-linux-in-10-minutes"
         },
         {
           "message": "Maintaining a DDEV add-on? See latest recommended best practices at https://ddev.com/blog/ddev-add-on-maintenance-guide"
