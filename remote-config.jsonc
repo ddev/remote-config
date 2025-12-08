@@ -92,9 +92,9 @@
         {
           "message": "Please sign up for the DDEV newsletter! https://ddev.com/newsletter/"
         },
-		{
-		  "message": "Read about DDEV's governance and Board of Directors at https://ddev.com/blog/board-of-directors-established"
-		},
+        {
+          "message": "Read about DDEV's governance and Board of Directors at https://ddev.com/blog/board-of-directors-established"
+        },
         {
           "message": "To add phpMyAdmin to your DDEV project, run `ddev add-on get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://docs.ddev.com/en/stable/users/usage/database-management/#database-guis"
         },
@@ -296,9 +296,9 @@
         {
           "message": "Install DDEV from scratch on Linux in 10 minutes: https://ddev.com/blog/ddev-on-linux-in-10-minutes"
         },
-		{
-		  "message": "Did you ever notice that DDEV on macOS and Windows is signed and notarized, so you don't get all those complaints from the OS? You don't have to click around to start it, and it's properly approved for those OSs. Not many open-source command-line tools have this."
-		},
+        {
+          "message": "Did you ever notice that DDEV on macOS and Windows is signed and notarized, so you don't get all those complaints from the OS? You don't have to click around to start it, and it's properly approved for those OSs. Not many open-source command-line tools have this."
+        },
         {
           "message": "Maintaining a DDEV add-on? See latest recommended best practices at https://ddev.com/blog/ddev-add-on-maintenance-guide"
         }
