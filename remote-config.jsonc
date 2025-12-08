@@ -180,7 +180,7 @@
           "message": "Try 'ddev pull upsun' with Upsun projects, https://upsun.com. These days you hardly have to do any config at all to use it."
         },
         {
-          "message": "DDEV supports PHP 8.5; most extensions are already there, just missing xdebug and memcached right now."
+          "message": "DDEV supports PHP 8.5; most extensions are already there, just missing memcached at this point."
         },
         {
           "message": "DDEV supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
