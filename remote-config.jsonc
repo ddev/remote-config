@@ -60,7 +60,7 @@
           "message": "`ddev poweroff` is a great way to get back to the beginning and save resources."
         },
         {
-          "message": "`ddev delete` deletes your database and project registration; it doesn't delete any code or configuration. `ddev help delete`"
+          "message": "`ddev delete` deletes your database and project registration; it doesn't delete any code or configuration. `ddev help delete` - `ddev delete -Oy` if you don't need to snapshot the database."
         },
         {
           "message": "`ddev delete images` will save you some disk space by removing all ddev/ddev-* Docker images not in use by the current version of DDEV."
@@ -72,13 +72,10 @@
           "message": "The FAQ is a useful collection of not-obvious details: https://docs.ddev.com/en/stable/users/usage/faq"
         },
         {
-          "message": "Need to get the database and files from your Upsun Fixed (formerly Platform.sh) stack? Try `ddev pull platform`! https://docs.ddev.com/en/stable/users/providers/platform"
+          "message": "Need to get the database and files from your Upsun Fixed stack? Try `ddev pull platform`! https://docs.ddev.com/en/stable/users/providers/platform"
         },
         {
           "message": "Use `ddev composer` instead of `composer` to ensure your project uses the Composer and PHP versions it specifies."
-        },
-        {
-          "message": "In recent versions of DDEV you can use `ddev composer create-project` just as you would use `composer create-project`."
         },
         {
           "message": "`ddev npm` is usually the best way to run npm commands for your codebase, since it respects the nodejs_version you have configured."
@@ -94,6 +91,9 @@
         },
         {
           "message": "Please sign up for the DDEV newsletter! https://ddev.com/newsletter/"
+        },
+        {
+          "message": "Read about DDEV's governance and Board of Directors at https://ddev.com/blog/board-of-directors-established"
         },
         {
           "message": "To add phpMyAdmin to your DDEV project, run `ddev add-on get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://docs.ddev.com/en/stable/users/usage/database-management/#database-guis"
@@ -162,7 +162,7 @@
           "message": "On macOS, DDEV officially supports many Docker providers: OrbStack, Rancher Desktop, Lima, Docker Desktop, and Colima."
         },
         {
-          "message": "On Traditional Windows, DDEV now supports open-source Rancher Desktop in addition to Docker Desktop. However, we don't have automated testing for Rancher. https://docs.ddev.com/en/stable/users/install/docker-installation/#rancher-desktop-for-windows"
+          "message": "On Traditional Windows, DDEV supports open-source Rancher Desktop in addition to Docker Desktop. However, we don't have automated testing for Rancher. https://docs.ddev.com/en/stable/users/install/docker-installation/#rancher-desktop-for-windows"
         },
         {
           "message": "You can now use Docker Desktop for Linux with DDEV, but we recommend that you stick with the performant and reliable Docker CE. https://docs.ddev.com/en/stable/users/install/docker-installation/#docker-installation-linux"
@@ -171,16 +171,16 @@
           "message": "Even though we recommend Docker CE for Windows, you'd be surprised how well DDEV works with Traditional Windows these days."
         },
         {
-          "message": "DDEV now has a fancy Windows installer, which will set up WSL2 with Docker CE (preferred), Docker Desktop/Rancher Desktop, or Traditional Windows. https://ddev.com/blog/watch-new-windows-installer"
+          "message": "DDEV now has a nice Windows installer, which will set up WSL2 with Docker CE (preferred), Docker Desktop/Rancher Desktop, or Traditional Windows. https://ddev.com/blog/watch-new-windows-installer"
         },
         {
           "message": "DDEV now has a better way to edit the hosts file when it has to, read about 'ddev-hostname' at https://ddev.com/blog/ddev-hostname-security-improvements"
         },
         {
-          "message": "Try 'ddev pull upsun' with Upsun projects, https://upsun.com. In DDEV v1.24.9+ you hardly have to do any config at all to use it."
+          "message": "Try 'ddev pull upsun' with Upsun projects, https://upsun.com. These days you hardly have to do any config at all to use it."
         },
         {
-          "message": "DDEV v1.24.9+ supports PHP 8.5; some extensions are missing but will be supported as support lands upstream in deb.sury.org."
+          "message": "DDEV supports PHP 8.5; most extensions are already there, just missing memcached at this point."
         },
         {
           "message": "DDEV supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
@@ -195,13 +195,10 @@
           "message": "DDEV has built-in support for XHGui for exploring performance issues, thanks to TYPO3 Community sponsorship and @tyler36's long and amazing stewardship though its gestation as an add-on."
         },
         {
-          "message": "Upsun is a generous 'partner' sponsor of DDEV! Stop by and thank them at https://upsun.com."
+          "message": "Upsun is a generous sponsor of DDEV! Stop by and thank them at https://upsun.com."
         },
         {
           "message": "Your support for DDEV in 2025 has made it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/ - stop by and thank him for all he's done!"
-        },
-        {
-          "message": "Where is DDEV going? See DDEV's goals at https://ddev.com/blog/2025-plans/ - we'd love to have your feedback!"
         },
         {
           "message": "It's the DDEV community that makes DDEV what it is. THANK YOU!"
@@ -213,13 +210,13 @@
           "message": "Have you ever wondered how 'ddev.site' domain names work? Read all about it at https://ddev.com/blog/ddev-name-resolution-wildcards"
         },
         {
-          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.6'`"
+          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.10'`"
         },
         {
           "message": "DDEV has explicit support for the `symfony` project type, so you can `ddev config --project-type=symfony`."
         },
         {
-          "message": "Want to know more about using vite with DDEV? The Vite blog is superbly maintained by Matthias Andrasch with the latest information: https://ddev.com/blog/working-with-vite-in-ddev/"
+          "message": "Want to know more about using vite with DDEV? See https://docs.ddev.com/en/stable/users/usage/vite/"
         },
         {
           "message": "The ddev-browsersync add-on lets you quickly and easily add Browsersync to your project, see https://github.com/ddev/ddev-browsersync - thanks to @tyler36"
@@ -237,7 +234,7 @@
           "message": "One reason DDEV can work across so many different environments is the automated testing. Every single change runs a full test suite on macOS (Apple Silicon and Intel), Windows WSL2 (with Mirrored mode too), traditional Windows, and Linux. It's hours and hours of mostly functional testing on all the major platforms."
         },
         {
-          "message": "Don't forget to upgrade DDEV! https://docs.ddev.com/en/stable/users/install/ddev-upgrade/"
+          "message": "Don't forget to keep DDEV up-to-date! https://docs.ddev.com/en/stable/users/install/ddev-upgrade/"
         },
         {
           "message": "Full detail about current sponsorship situation is at https://github.com/ddev/sponsorship-data"
@@ -298,6 +295,9 @@
         },
         {
           "message": "Install DDEV from scratch on Linux in 10 minutes: https://ddev.com/blog/ddev-on-linux-in-10-minutes"
+        },
+        {
+          "message": "Did you ever notice that DDEV on macOS and Windows is signed and notarized, so you don't get all those complaints from the OS? You don't have to click around to start it, and it's properly approved for those OSs. Not many open-source command-line tools have this."
         },
         {
           "message": "Maintaining a DDEV add-on? See latest recommended best practices at https://ddev.com/blog/ddev-add-on-maintenance-guide"
