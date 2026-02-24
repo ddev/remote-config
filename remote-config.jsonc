@@ -336,7 +336,7 @@
           "message": "Xdebug in DDEV 'just works' about 100% of the time, but if it doesn't, try `ddev utility xdebug-diagnose --interactive`, https://ddev.com/blog/xdebug-step-debugging-understanding-and-troubleshooting"
         },
         {
-          "message": "DDEV's built-in support for XHGui is a great way to explore performance issues, see https://ddev.com/blog/using-xhgui-with-ddev"
+          "message": "DDEV's built-in support for XHGui is a great way to explore performance issues, see https://ddev.com/blog/xhgui-feature"
         },
         {
           "message": "`ddev list --json-output` (`ddev list -j`) and `ddev describe -j` are really fun to work with. Try `ddev list -j | jq -r .raw.[].name`"
