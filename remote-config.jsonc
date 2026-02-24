@@ -340,9 +340,6 @@
         },
         {
           "message": "`ddev list --json-output` (`ddev list -j`) and `ddev describe -j` are really fun to work with. Try `ddev list -j | jq -r .raw.[].name`"
-        },
-        {
-          "message": "DDEV's built-in support for Xdebug and XHGui is a great way to explore performance issues, see https://ddev.com/blog/using-xdebug-and-xhgui-with-ddev"
         }
       ]
     }
