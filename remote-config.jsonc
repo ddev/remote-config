@@ -84,7 +84,7 @@
           "message": "`ddev yarn` is a great way to run yarn commands in your web container."
         },
         {
-          "message": "`ddev snapshot -a` will back up project databases of all projects that show up in `ddev list`."
+          "message": "`ddev snapshot -a` will back up the databases of all projects that show up in `ddev list`."
         },
         {
           "message": "You're invited to the DDEV Advisory Group, first Wednesday every two months, see the schedule in the latest newsletter, https://ddev.com/newsletter/"
@@ -261,7 +261,7 @@
           "message": "Interested in backup techniques for your DDEV projects? https://ddev.com/blog/ddev-backups"
         },
         {
-          "message": "FrankenPHP: Read how it's finding its way into DDEV slowly but surely via add-on, https://ddev.com/blog/using-frankenphp-with-ddev"
+          "message": "FrankenPHP: Read how it's finding its way into DDEV slowly but surely via an add-on, https://ddev.com/blog/using-frankenphp-with-ddev"
         },
         {
           "message": "Pantheon's terminus no longer works with older PHP versions. But here's what you can do to downgrade it in DDEV: https://ddev.com/blog/ddev-bundled-tools-using-custom-versions/"
@@ -306,7 +306,7 @@
           "message": "Maintaining a DDEV add-on? See latest recommended best practices at https://ddev.com/blog/ddev-add-on-maintenance-guide"
         },
         {
-          "message": "Just two people work full-time on DDEV! Help keep DDEV finding its way to becoming a sustainable project by supporting at whatever level you can, https://github.com/sponsors/ddev"
+          "message": "Just two people work full-time keeping DDEV running for you! Help keep DDEV finding its way to becoming a sustainable project by supporting at whatever level you can, https://github.com/sponsors/ddev"
         },
         {
           "message": "DDEV is governed by a Board of Directors, see https://ddev.com/blog/board-of-directors-established/ - all of them appreciate your input, support, guidance!"
@@ -318,7 +318,7 @@
           "message": "Maintainer Stas Zhuk has a unique position affected dramatically by the war in Ukraine, read all about how he makes things work at https://ddev.com/blog/power-through-blackouts-ddev-community-support"
         },
         {
-          "message": "SO many things happened in DDEV in 2025, read about them in the 2025 Year in Review: https://ddev.com/blog/2025-review"
+          "message": "SO many things happened in DDEV in the last year, read about them in the 2025 Year in Review: https://ddev.com/blog/2025-review"
         },
         {
           "message": "Here are our plans for 2026, but your input along the way is always appreciated! https://ddev.com/blog/2026-plans"
@@ -330,7 +330,7 @@
           "message": "Podman and Docker Rootless finally have (experimental) support in DDEV, mostly for Linux, https://ddev.com/blog/podman-and-docker-rootless"
         },
         {
-          "message": "Questions or troubles with mutagen? Try `ddev utility mutagen-diagnose`, https://ddev.com/blog/mutagen-functionality-issues-debugging"
+          "message": "Questions or troubles with Mutagen? Try `ddev utility mutagen-diagnose`, https://ddev.com/blog/mutagen-functionality-issues-debugging"
         },
         {
           "message": "Xdebug in DDEV 'just works' about 100% of the time, but if it doesn't, try `ddev utility xdebug-diagnose --interactive`, https://ddev.com/blog/xdebug-step-debugging-understanding-and-troubleshooting"
