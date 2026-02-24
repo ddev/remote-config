@@ -180,7 +180,7 @@
           "message": "DDEV now has a better way to edit the hosts file when it has to, read about 'ddev-hostname' at https://ddev.com/blog/ddev-hostname-security-improvements"
         },
         {
-          "message": "Try 'ddev pull upsun' with Upsun flex projects, https://upsun.com. These days you hardly have to do any config at all to use it."
+          "message": "Try 'ddev pull upsun' with Upsun Flex projects, https://upsun.com. These days you hardly have to do any config at all to use it."
         },
         {
           "message": "DDEV supports PHP 8.5; most extensions are already there, just missing memcached at this point."
@@ -315,7 +315,7 @@
           "message": "Do you have a Fritzbox router? Read about how to solve the complexities it introduces at https://ddev.com/blog/fritzbox-routers-and-ddev"
         },
         {
-          "message": "Maintainer Stas Zhuk has a unique position affected dramatically by the Ukraine war, read all about how he makes things work at https://ddev.com/blog/power-through-blackouts-ddev-community-support"
+          "message": "Maintainer Stas Zhuk has a unique position affected dramatically by the war in Ukraine, read all about how he makes things work at https://ddev.com/blog/power-through-blackouts-ddev-community-support"
         },
         {
           "message": "SO many things happened in DDEV in 2025, read about them in the 2025 Year in Review: https://ddev.com/blog/2025-review"
