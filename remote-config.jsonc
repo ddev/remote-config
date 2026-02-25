@@ -84,10 +84,10 @@
           "message": "`ddev yarn` is a great way to run yarn commands in your web container."
         },
         {
-          "message": "`ddev snapshot -a` will back up all your project databases."
+          "message": "`ddev snapshot -a` will back up the databases of all projects that show up in `ddev list`."
         },
         {
-          "message": "You're invited to the DDEV Advisory Group, first Wednesday every two months, see the schedule https://github.com/orgs/ddev/discussions/categories/ddev-advisory-group and send a note to support@ddev.com to get a calendar invitation."
+          "message": "You're invited to the DDEV Advisory Group, first Wednesday every two months, see the schedule in the latest newsletter, https://ddev.com/newsletter/"
         },
         {
           "message": "Please sign up for the DDEV newsletter! https://ddev.com/newsletter/"
@@ -106,6 +106,9 @@
         },
         {
           "message": "You can use a more lively `ddev list` and `ddev describe` output by running `ddev config global --table-style=bright`. Try it!"
+        },
+        {
+          "message": "Try the new Terminal UI (TUI) dashboard in DDEV v1.25.1+, just type `ddev`"
         },
         {
           "message": "DDEV's fiscal entity is the DDEV Foundation. We have a real focus on the long-term sustainability of the project, not just depending on Randy. https://ddev.com/foundation"
@@ -147,7 +150,7 @@
           "message": "Pro tip: `ddev config --auto` will update your project config to remove items that are obsolete (and update some), but it won't change configured values."
         },
         {
-          "message": "In any project you can omit the `name` key from config.yaml to use the directory name as the project name. In v1.24.9+ you can make this the default behavior. It's great for working with `git subtree`."
+          "message": "In any project you can omit the `name` key from config.yaml to use the directory name as the project name. In v1.24.9+ you can make this the default behavior, `ddev config global --omit-project-name-by-default`. It's great for working with multiple versions of one repo with `git worktree`."
         },
         {
           "message": "See something that can be improved in the docs? Click the pencil in the upper right and fix it!"
@@ -177,7 +180,7 @@
           "message": "DDEV now has a better way to edit the hosts file when it has to, read about 'ddev-hostname' at https://ddev.com/blog/ddev-hostname-security-improvements"
         },
         {
-          "message": "Try 'ddev pull upsun' with Upsun projects, https://upsun.com. These days you hardly have to do any config at all to use it."
+          "message": "Try 'ddev pull upsun' with Upsun Flex projects, https://upsun.com. These days you hardly have to do any config at all to use it."
         },
         {
           "message": "DDEV supports PHP 8.5; most extensions are already there, just missing memcached at this point."
@@ -198,7 +201,7 @@
           "message": "Upsun is a generous sponsor of DDEV! Stop by and thank them at https://upsun.com."
         },
         {
-          "message": "Your support for DDEV in 2025 has made it possible for maintainer Stas Zhuk to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/ - stop by and thank him for all he's done!"
+          "message": "Your support for DDEV makes it possible for maintainers Stas Zhuk and Randy Fay to work full-time on DDEV, see https://ddev.com/blog/lets-fund-stas-maintainer/ - stop by and thank Stas for all he's done!"
         },
         {
           "message": "It's the DDEV community that makes DDEV what it is. THANK YOU!"
@@ -249,7 +252,7 @@
           "message": "There are more than 400 great questions and answers about DDEV on Stack Overflow, see https://stackoverflow.com/tags/ddev"
         },
         {
-          "message": "You can use `cloudflared` as well as `ngrok` for sharing projects with others, see https://github.com/davo20019/ddev-share-cf and https://stackoverflow.com/questions/78729503/drupal-10-multisite-using-ddev-share-or-cloudflare/78744731#78744731"
+          "message": "`ddev share` now supports `cloudflared` in addition to `ngrok`, no account or token required, see https://docs.ddev.com/en/stable/users/topics/sharing/"
         },
         {
           "message": "You can use `http` URLs with any project alongside the `https` URLs, see `ddev describe` to show them."
@@ -258,7 +261,7 @@
           "message": "Interested in backup techniques for your DDEV projects? https://ddev.com/blog/ddev-backups"
         },
         {
-          "message": "FrankenPHP: Read two different ways to experiment with it in DDEV, https://ddev.com/blog/using-frankenphp-with-ddev"
+          "message": "FrankenPHP: Read how it's finding its way into DDEV slowly but surely via an add-on, https://ddev.com/blog/using-frankenphp-with-ddev"
         },
         {
           "message": "Pantheon's terminus no longer works with older PHP versions. But here's what you can do to downgrade it in DDEV: https://ddev.com/blog/ddev-bundled-tools-using-custom-versions/"
@@ -273,7 +276,7 @@
           "message": "Take the Open Source Pledge and include DDEV in your plans based on its value to your organization, https://ddev.com/blog/open-source-pledge"
         },
         {
-          "message": "Are you interested in how 18,000+ weekly developer users are using DDEV and what they're doing with it? See analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
+          "message": "Are you interested in how 19,000+ weekly developer users are using DDEV and what they're doing with it? See analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
         },
         {
           "message": "DDEV supports ARM64 Windows, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
@@ -288,7 +291,7 @@
           "message": "DDEV can even spin up ancient PHP projects with ancient database versions, even on Apple Silicon: https://ddev.com/blog/legacy-projects-with-unsupported-php-and-mysql-using-ddev"
         },
         {
-          "message": "Using Upsun (Flex or Fixed)? Try the new ddev-upsun add-on, see https://ddev.com/blog/ddev-upsun-platformsh-addon"
+          "message": "Using Upsun (Flex or Fixed)? Try the new ddev-upsun add-on, see https://ddev.com/blog/ddev-upsun-platformsh-addon, we'd love to have your feedback!"
         },
         {
           "message": "Complete Windows WSL2 walkthrough screencast and blog: https://ddev.com/blog/watch-ddev-local-from-scratch-with-windows-wsl2/"
@@ -301,6 +304,42 @@
         },
         {
           "message": "Maintaining a DDEV add-on? See latest recommended best practices at https://ddev.com/blog/ddev-add-on-maintenance-guide"
+        },
+        {
+          "message": "Just two people work full-time keeping DDEV running for you! Help keep DDEV finding its way to becoming a sustainable project by supporting at whatever level you can, https://github.com/sponsors/ddev"
+        },
+        {
+          "message": "DDEV is governed by a Board of Directors, see https://ddev.com/blog/board-of-directors-established/ - all of them appreciate your input, support, guidance!"
+        },
+        {
+          "message": "Do you have a Fritzbox router? Read about how to solve the complexities it introduces at https://ddev.com/blog/fritzbox-routers-and-ddev"
+        },
+        {
+          "message": "Maintainer Stas Zhuk has a unique position affected dramatically by the war in Ukraine, read all about how he makes things work at https://ddev.com/blog/power-through-blackouts-ddev-community-support"
+        },
+        {
+          "message": "SO many things happened in DDEV in the last year, read about them in the 2025 Year in Review: https://ddev.com/blog/2025-review"
+        },
+        {
+          "message": "Here are our plans for 2026, but your input along the way is always appreciated! https://ddev.com/blog/2026-plans"
+        },
+        {
+          "message": "DDEV v1.25 is a major release with loads of features and changes, but perhaps some friction, see https://ddev.com/blog/release-v1250"
+        },
+        {
+          "message": "Podman and Docker Rootless finally have (experimental) support in DDEV, mostly for Linux, https://ddev.com/blog/podman-and-docker-rootless"
+        },
+        {
+          "message": "Questions or troubles with Mutagen? Try `ddev utility mutagen-diagnose`, https://ddev.com/blog/mutagen-functionality-issues-debugging"
+        },
+        {
+          "message": "Xdebug in DDEV 'just works' about 100% of the time, but if it doesn't, try `ddev utility xdebug-diagnose --interactive`, https://ddev.com/blog/xdebug-step-debugging-understanding-and-troubleshooting"
+        },
+        {
+          "message": "DDEV's built-in support for XHGui is a great way to explore performance issues, see https://ddev.com/blog/xhgui-feature"
+        },
+        {
+          "message": "`ddev list --json-output` (`ddev list -j`) and `ddev describe -j` are really fun to work with. Try `ddev list -j | jq -r .raw.[].name`"
         }
       ]
     }
