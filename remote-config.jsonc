@@ -324,9 +324,6 @@
           "message": "Here are our plans for 2026, but your input along the way is always appreciated! https://ddev.com/blog/2026-plans"
         },
         {
-          "message": "DDEV v1.25 is a major release with loads of features and changes, but perhaps some friction, see https://ddev.com/blog/release-v1250"
-        },
-        {
           "message": "Podman and Docker Rootless finally have (experimental) support in DDEV, mostly for Linux, https://ddev.com/blog/podman-and-docker-rootless"
         },
         {
@@ -336,7 +333,7 @@
           "message": "Xdebug in DDEV 'just works' about 100% of the time, but if it doesn't, try `ddev utility xdebug-diagnose --interactive`, https://ddev.com/blog/xdebug-step-debugging-understanding-and-troubleshooting"
         },
         {
-          "message": "DDEV's built-in support for XHGui is a great way to explore performance issues, see https://ddev.com/blog/xhgui-feature"
+          "message": "The Institute for Advanced Studies is a major sponsor of DDEV, stop by and thank them at https://www.ias.edu"
         },
         {
           "message": "`ddev list --json-output` (`ddev list -j`) and `ddev describe -j` are really fun to work with. Try `ddev list -j | jq -r .raw.[].name`"
