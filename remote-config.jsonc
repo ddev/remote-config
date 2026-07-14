@@ -371,6 +371,9 @@
 
         {
           "message": "`ddev list`, `ddev describe`, `ddev add-on list`, and `ddev add-on search` now show clickable terminal hyperlinks in terminals that support them."
+        },
+        {
+          "message": "Randy and Stas talked DDEV on the Talking Drupal podcast, episode 549: the DDEV Drupal Contrib add-on, coder.ddev.com, and more. https://talkingdrupal.com/549"
         }
       ]
     }
