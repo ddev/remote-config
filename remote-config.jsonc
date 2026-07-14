@@ -365,6 +365,10 @@
         {
           "message": "New DDEV quickstarts: Tempest and October CMS. See https://docs.ddev.com/en/stable/users/quickstart/"
         },
+{
+          "message": "DDEV already supports Ubuntu 26.04 and Fedora 44, along with so many other operating systems and Docker providers."
+        },
+
         {
           "message": "`ddev list`, `ddev describe`, `ddev add-on list`, and `ddev add-on search` now show clickable terminal hyperlinks in terminals that support them."
         }
