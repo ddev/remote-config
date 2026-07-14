@@ -276,7 +276,7 @@
           "message": "Are you interested in how 20,000+ weekly developer users are using DDEV and what they're doing with it? See analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
         },
         {
-          "message": "DDEV supports ARM64 Windows, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
+          "message": "DDEV supports ARM64 Windows - https://ddev.com/blog/windows-ddev-setup"
         },
         {
           "message": "DDEV now supports MariaDB 11.8 LTS, with its new vector support"
