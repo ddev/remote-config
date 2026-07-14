@@ -306,7 +306,7 @@
           "message": "Maintaining a DDEV add-on? See latest recommended best practices at https://ddev.com/blog/ddev-add-on-maintenance-guide"
         },
         {
-          "message": "Just two people work full-time keeping DDEV running for you! Help keep DDEV finding its way to becoming a sustainable project by supporting at whatever level you can, https://github.com/sponsors/ddev"
+          "message": "Just two people work full-time keeping DDEV running for you! Help keep DDEV finding its way to becoming a sustainable project by supporting at whatever level you can, https://ddev.com/sponsor"
         },
         {
           "message": "DDEV is governed by a Board of Directors, see https://ddev.com/blog/board-of-directors-established/ - all of them appreciate your input, support, guidance!"
@@ -318,19 +318,19 @@
           "message": "Maintainer Stas Zhuk has a unique position affected dramatically by the war in Ukraine, read all about how he makes things work at https://ddev.com/blog/power-through-blackouts-ddev-community-support"
         },
         {
-          "message": "SO many things happened in DDEV in the last year, read about them in the 2025 Year in Review: https://ddev.com/blog/2025-review"
-        },
-        {
           "message": "Here are our plans for 2026, but your input along the way is always appreciated! https://ddev.com/blog/2026-plans"
         },
         {
-          "message": "DDEV v1.25 is a major release with loads of features and changes, but perhaps some friction, see https://ddev.com/blog/release-v1250"
-        },
-        {
-          "message": "Podman and Docker Rootless finally have (experimental) support in DDEV, mostly for Linux, https://ddev.com/blog/podman-and-docker-rootless"
+          "message": "Podman and Docker Rootless are officially supported in DDEV on both Linux and macOS https://ddev.com/blog/podman-and-docker-rootless"
         },
         {
           "message": "Questions or troubles with Mutagen? Try `ddev utility mutagen-diagnose`, https://ddev.com/blog/mutagen-functionality-issues-debugging"
+        },
+        {
+          "message": "Questions or troubles with TLS/SSL, or your browser isn't trusting DDEV projects? Try `ddev utility tls-diagnose`"
+        },
+        {
+          "message": "Questions or troubles with port conflicts? Try `ddev utility port-diagnose`"
         },
         {
           "message": "Xdebug in DDEV 'just works' about 100% of the time, but if it doesn't, try `ddev utility xdebug-diagnose --interactive`, https://ddev.com/blog/xdebug-step-debugging-understanding-and-troubleshooting"
