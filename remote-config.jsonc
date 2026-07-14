@@ -45,7 +45,7 @@
           "message": "Don’t forget to read and contribute to the docs! https://docs.ddev.com/"
         },
         {
-          "message": "DDEV needs *you* and *your organization* as a financial sponsor! https://github.com/sponsors/ddev"
+          "message": "DDEV needs *you* and *your organization* as a financial sponsor! https://ddev.com/sponsor"
         },
         {
           "message": "Use `ddev exec` or `ddev .` to run commands in your web container."
@@ -183,9 +183,6 @@
           "message": "Try 'ddev pull upsun' with Upsun Flex projects, https://upsun.com. These days you hardly have to do any config at all to use it."
         },
         {
-          "message": "DDEV supports PHP 8.5; most extensions are already there, just missing memcached at this point."
-        },
-        {
           "message": "DDEV supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
         },
         {
@@ -276,7 +273,7 @@
           "message": "Take the Open Source Pledge and include DDEV in your plans based on its value to your organization, https://ddev.com/blog/open-source-pledge"
         },
         {
-          "message": "Are you interested in how 19,000+ weekly developer users are using DDEV and what they're doing with it? See analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
+          "message": "Are you interested in how 20,000+ weekly developer users are using DDEV and what they're doing with it? See analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
         },
         {
           "message": "DDEV supports ARM64 Windows, especially under WSL2, but does great everywhere, macOS (native ARM64), Linux, Windows - https://ddev.com/blog/windows-ddev-setup"
@@ -340,6 +337,21 @@
         },
         {
           "message": "`ddev list --json-output` (`ddev list -j`) and `ddev describe -j` are really fun to work with. Try `ddev list -j | jq -r .raw.[].name`"
+        },
+        {
+          "message": "DDEV v1.25.3 makes `ddev start`/`ddev stop` up to 28% faster, ships a built-in Docker Compose library (no more separate `docker-compose` binary), and graduates Podman/Docker Rootless to stable support. https://ddev.com/blog/release-v1-25-3"
+        },
+        {
+          "message": "DDEV now supports MariaDB 12.3 LTS. Configure new projects with `ddev config --database=mariadb:12.3` or migrate existing ones with `ddev utility migrate-database mariadb:12.3`."
+        },
+        {
+          "message": "Try coder.ddev.com, a free experimental cloud DDEV service: log in with GitHub and get a full DDEV environment in the cloud, no local Docker or install needed. https://ddev.com/blog/coder-ddev-com-announcement"
+        },
+        {
+          "message": "Running Lima, Colima, or a custom Docker setup? DDEV v1.25.1+ requires Docker Buildx v0.17.0+. If `ddev start` errors with 'compose build requires buildx 0.17.0 or later', see https://ddev.com/blog/docker-buildx-requirement-v1-25-1"
+        },
+        {
+          "message": "Upsun has completed transferring the DDEV trademark to the DDEV Foundation, fully decoupling DDEV's governance from any corporate sponsor. Thank you Upsun! https://ddev.com/blog/upsun-trademark-transfer-complete"
         }
       ]
     }
