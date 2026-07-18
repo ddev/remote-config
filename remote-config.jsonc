@@ -276,7 +276,7 @@
           "message": "Take the Open Source Pledge and include DDEV in your plans based on its value to your organization, https://ddev.com/blog/open-source-pledge"
         },
         {
-          "message": "Are you interested in how 20,000+ weekly developer users are using DDEV and what they're doing with it? See analysis and live charts, https://ddev.com/blog/stats-on-ddev-usage-nov-2024"
+          "message": "Are you interested in how 20,000+ weekly developer users are using DDEV and what they're doing with it? See analysis and live charts, https://ddev.com/usage-stats/"
         },
         {
           "message": "DDEV supports ARM64 Windows - https://ddev.com/blog/windows-ddev-setup"
