@@ -96,7 +96,7 @@
           "message": "To add phpMyAdmin to your DDEV project, run `ddev add-on get ddev/ddev-phpmyadmin`, or try one of the many other database browsers, https://docs.ddev.com/en/stable/users/usage/database-management/#database-guis"
         },
         {
-          "message": "MacStadium supports DDEV with a cloud-hosted Apple silicon Mac that runs DDEV's macOS tests and nightly performance benchmarks. Stop by and thank them at https://macstadium.com"
+          "message": "MacStadium supports DDEV with an M1 Mac Mini that runs macOS automated tests."
         },
         {
           "message": "You can turn off the cell borders in `ddev describe` and `ddev list` by running `ddev config global --simple-formatting`."
@@ -105,7 +105,7 @@
           "message": "You can use a more lively `ddev list` and `ddev describe` output by running `ddev config global --table-style=bright`. Try it!"
         },
         {
-          "message": "Type `ddev` with no arguments to open the TUI dashboard. It was rebuilt in v1.25.5: it fits any window, shows database addresses, ports, snapshots, and add-on updates, and `o`, `v`, and `p` open a project in your file manager, VS Code, or PhpStorm. Press `?` for every key."
+          "message": "Try the new Terminal UI (TUI) dashboard, just type `ddev`"
         },
         {
           "message": "DDEV's fiscal entity is the DDEV Foundation. We have a real focus on the long-term sustainability of the project, not just depending on Randy. https://ddev.com/foundation"
@@ -123,7 +123,7 @@
           "message": "VS Code users love the DDEV Manager extension! https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager"
         },
         {
-          "message": "PhpStorm and IntelliJ users love the DDEV Integration Plugin, now part of the DDEV GitHub organization and still maintained by @AkibaAT! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
+          "message": "PhpStorm users love the DDEV Integration Plugin! https://plugins.jetbrains.com/plugin/18813-ddev-integration"
         },
         {
           "message": "Run `ddev logs -f --time` for insights on crashed containers or other misbehavior."
@@ -373,10 +373,10 @@
           "message": "Try PHP 8.6 with `ddev config --php-version=8.6 && ddev restart`. Some extensions, including Xdebug, APCu, and Redis, aren't built for 8.6 yet."
         },
         {
-          "message": "Need a PHP security release before the next DDEV release? Add `.ddev/web-build/Dockerfile.php-upgrade` containing `RUN (apt-get update || true) && apt-get install -y --only-upgrade 'php*'`, then `ddev restart --no-cache` and check `ddev php -v`."
+          "message": "Need a PHP security release before the next DDEV release? The docs show how in https://docs.ddev.com/en/stable/users/configuration/config/#php_version"
         },
         {
-          "message": "Run `ddev config` with no flags to get a form showing what DDEV detected, where you can change the project type, PHP version, database, and web server before saving."
+          "message": "Run `ddev config` with no flags to get a form showing what DDEV detected, and you can change the project type, PHP version, database, and web server before saving."
         },
         {
           "message": "Running DDEV in GitHub Actions, GitLab CI, or another CI system? In v1.25.6+ `ddev start` passes the `CI` variable into the web container, so tools there skip prompts and progress bars."
