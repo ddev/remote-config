@@ -370,7 +370,7 @@
           "message": "Each DDEV project has its own Composer, npm, and Yarn caches and shell history in v1.25.6+. The old shared caches stay in the `ddev-global-cache` volume; to reclaim that space, run `ddev poweroff && docker volume rm ddev-global-cache`. https://docs.ddev.com/en/stable/users/usage/architecture/#project-cache-volumes"
         },
         {
-          "message": "Try PHP 8.6 with `ddev config --php-version=8.6 && ddev restart`. Some extensions, including Xdebug, APCu, and Redis, aren't built for 8.6 yet."
+          "message": "Try PHP 8.6 with DDEV v1.25.6+ with `ddev config --php-version=8.6 && ddev restart`. Some extensions, including Xdebug, APCu, and Redis, aren't built for 8.6 yet."
         },
         {
           "message": "Need a PHP security release before the next DDEV release? The docs show how in https://docs.ddev.com/en/stable/users/configuration/config/#php_version"
@@ -385,7 +385,7 @@
           "message": "Keep your SSH keys in the macOS agent, 1Password, Secretive, or a YubiKey? `ddev config global --ssh-agent-upstream=host` lets DDEV's containers use that agent directly, then `ddev auth ssh` lists the keys they can use. https://docs.ddev.com/en/stable/users/usage/cli/#using-an-existing-ssh-agent"
         },
         {
-          "message": "`ddev restart -s redis` recreates just the services you name and leaves the rest of the project running. It takes a comma-separated list, like `ddev restart -s solr,redis`."
+          "message": "Restart a service using `-s` and the service name, like `ddev restart -s redis`, to recreates the services you name and leaves the rest of the project running. It takes a comma-separated list, like `ddev restart -s redis,solr`."
         },
         {
           "message": "`ddev launch --qr` prints the project URL with a QR code, and `ddev launch --print-url` prints the URL without opening a browser, handy over SSH or in CI."
