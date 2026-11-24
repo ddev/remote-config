@@ -51,7 +51,7 @@
           "message": "Use `ddev exec` or `ddev .` to run commands in your web container."
         },
         {
-          "message": "`ddev snapshot` is great to get a quick copy of your database. `ddev help snapshot`"
+          "message": "`ddev snapshot` is great to get a quick copy of your database, and `ddev snapshot --list` shows sizes and database versions. `ddev help snapshot`, or read https://ddev.com/blog/ddev-snapshots"
         },
         {
           "message": "Try `ddev share` so collaborators anywhere can see your current project. https://docs.ddev.com/en/stable/users/topics/sharing/"
@@ -141,13 +141,10 @@
           "message": "Most teams check in a project’s `.ddev` directory so everybody has the same configuration. But do NOT force-add the `.ddev/.gitignore`, which is managed by DDEV."
         },
         {
-          "message": "DDEV has support for many database browsers. See them all at https://docs.ddev.com/en/stable/users/usage/database-management/#database-guis"
-        },
-        {
           "message": "Pro tip: `ddev config --auto` will update your project config to remove items that are obsolete (and update some), but it won't change configured values."
         },
         {
-          "message": "In any project you can omit the `name` key from config.yaml to use the directory name as the project name. In v1.24.9+ you can make this the default behavior, `ddev config global --omit-project-name-by-default`. It's great for working with multiple versions of one repo with `git worktree`."
+          "message": "In any project you can omit the `name` key from config.yaml to use the directory name as the project name. You can make this the default behavior with `ddev config global --omit-project-name-by-default`. It's great for working with multiple versions of one repo with `git worktree`, and in v1.25.4+ snapshots are shared across worktrees."
         },
         {
           "message": "See something that can be improved in the docs? Click the pencil in the upper right and fix it!"
@@ -183,7 +180,7 @@
           "message": "DDEV supports Amazee.io's Lagoon hosting platform. 'ddev pull lagoon'."
         },
         {
-          "message": "These days it makes more sense to use `nodejs_version` with a full version than using `ddev nvm`, which is more complex and error-prone. You can now set 'nodejs_version' to any major or minor version, not just currently supported major versions. So 'nodejs_version: 21.2.0' or 'nodejs_version: 6' will work."
+          "message": "Set `nodejs_version` in .ddev/config.yaml to any major, minor, or full Node.js version, like `22`, `20.11`, or `21.2.0`, and DDEV installs it. (`ddev nvm` was removed in v1.25.0.) https://docs.ddev.com/en/stable/users/configuration/config/#nodejs_version"
         },
         {
           "message": "DDEV Swag is available, including t-shirts, mugs, etc. see https://ddev.threadless.com/ - thanks @bmartinez287!"
@@ -213,7 +210,7 @@
           "message": "Have you ever wondered how 'ddev.site' domain names work? Read all about it at https://ddev.com/blog/ddev-name-resolution-wildcards"
         },
         {
-          "message": "Use 'ddev_version_constraint' in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.24.10'`"
+          "message": "Use `ddev_version_constraint` in your .ddev/config.yaml to make sure all your team members are on the same minimum DDEV version, for example `ddev_version_constraint: '>=v1.25.6'`"
         },
         {
           "message": "DDEV has explicit support for the `symfony` project type, so you can `ddev config --project-type=symfony`."
@@ -243,16 +240,13 @@
           "message": "Full detail about current sponsorship situation is at https://github.com/ddev/sponsorship-data"
         },
         {
-          "message": "`ddev .` is a shortcut for `ddev exec`, so you can `ddev . ls` for example."
-        },
-        {
           "message": "Organizations that donate $1000/month or more to the DDEV Foundation get their own special thank-you as a tip-of-the-day! Your organization can be here."
         },
         {
           "message": "There are more than 400 great questions and answers about DDEV on Stack Overflow, see https://stackoverflow.com/tags/ddev"
         },
         {
-          "message": "`ddev share` now supports `cloudflared` in addition to `ngrok`, no account or token required, see https://docs.ddev.com/en/stable/users/topics/sharing/"
+          "message": "`ddev share` supports `cloudflared` in addition to `ngrok`, no account or token required, and in v1.25.5+ it prints a QR code so you can open the shared site on your phone. https://docs.ddev.com/en/stable/users/topics/sharing/"
         },
         {
           "message": "You can use `http` URLs with any project alongside the `https` URLs, see `ddev describe` to show them."
@@ -336,7 +330,7 @@
           "message": "`ddev list --json-output` (`ddev list -j`) and `ddev describe -j` are really fun to work with. Try `ddev list -j | jq -r .raw.[].name`"
         },
         {
-          "message": "DDEV v1.25.3 makes `ddev start`/`ddev stop` up to 28% faster, ships a built-in Docker Compose library (no more separate `docker-compose` binary), and graduates Podman/Docker Rootless to stable support. https://ddev.com/blog/release-v1-25-3"
+          "message": "DDEV v1.25.6 ships PHP 8.6.0 and the latest PHP security fixes, a form for interactive `ddev config`, new tables in `ddev list` and `ddev describe`, and separate cache volumes for each project. https://ddev.com/blog/release-v1-25-6"
         },
         {
           "message": "DDEV now supports MariaDB 12.3 LTS. Configure new projects with `ddev config --database=mariadb:12.3` or migrate existing ones with `ddev utility migrate-database mariadb:12.3`."
@@ -351,7 +345,7 @@
           "message": "Upsun has completed transferring the DDEV trademark to the DDEV Foundation, fully decoupling DDEV's governance from any corporate sponsor. Thank you Upsun! https://ddev.com/blog/upsun-trademark-transfer-complete"
         },
         {
-          "message": "DDEV v1.25.3+ uses stricter permissions for world-writable directories in the web container (like `/usr/local/bin`, `/run`, `/var/log`). If your `post-start` hooks wrote to `/usr/local/bin`, switch them to `~/.local/bin` instead, or open an issue for discussion."
+          "message": "DDEV v1.25.3+ uses stricter permissions for world-writable directories in the web container, like `/usr/local/bin`. If your `post-start` hooks wrote to `/usr/local/bin`, switch them to `~/.local/bin` instead, or open an issue for discussion."
         },
         {
           "message": "DDEV now auto-starts a stopped project when you run `ddev exec`, `ddev ssh`, `ddev share`, `ddev xhgui`, `ddev pull`, `ddev push`, or `ddev snapshot restore`, no more manual `ddev start` first. It already did that for many other commands like `ddev launch`"
@@ -371,6 +365,102 @@
         },
         {
           "message": "Randy and Stas talked DDEV on the Talking Drupal podcast, episode 549: the DDEV Drupal Contrib add-on, coder.ddev.com, and more. https://talkingdrupal.com/549"
+        },
+        {
+          "message": "Each DDEV project has its own Composer, npm, and Yarn caches and shell history in v1.25.6+. The old shared caches stay in the `ddev-global-cache` volume; to reclaim that space, run `ddev poweroff && docker volume rm ddev-global-cache`. https://docs.ddev.com/en/stable/users/usage/architecture/#project-cache-volumes"
+        },
+        {
+          "message": "Try PHP 8.6 with DDEV v1.25.6+ with `ddev config --php-version=8.6 && ddev restart`. Some extensions, including Xdebug, APCu, and Redis, aren't built for 8.6 yet."
+        },
+        {
+          "message": "Need a PHP security release before the next DDEV release? The docs show how in https://docs.ddev.com/en/stable/users/configuration/config/#php_version"
+        },
+        {
+          "message": "Run `ddev config` with no flags to get a form showing what DDEV detected, and you can change the project type, PHP version, database, and web server before saving."
+        },
+        {
+          "message": "Running DDEV in GitHub Actions, GitLab CI, or another CI system? In v1.25.6+ `ddev start` passes the `CI` variable into the web container, so tools there skip prompts and progress bars."
+        },
+        {
+          "message": "Keep your SSH keys in the macOS agent, 1Password, Secretive, or a YubiKey? `ddev config global --ssh-agent-upstream=host` lets DDEV's containers use that agent directly, then `ddev auth ssh` lists the keys they can use. https://docs.ddev.com/en/stable/users/usage/cli/#using-an-existing-ssh-agent"
+        },
+        {
+          "message": "Restart a service using `-s` and the service name, like `ddev restart -s redis`, to recreates the services you name and leaves the rest of the project running. It takes a comma-separated list, like `ddev restart -s redis,solr`."
+        },
+        {
+          "message": "`ddev launch --qr` prints the project URL with a QR code, and `ddev launch --print-url` prints the URL without opening a browser, handy over SSH or in CI."
+        },
+        {
+          "message": "DDEV handles zstd: `ddev export-db -f db.sql.zst` and `ddev import-db -f db.sql.zst`. `ddev export-db` picks the compression from the file extension."
+        },
+        {
+          "message": "Global hooks in `~/.ddev/global_config.yaml` run for every project, before the project's own hooks. And `~/.ddev/global_config.*.yaml` files are merged over `global_config.yaml`, so a team can share settings without touching the file DDEV rewrites. https://docs.ddev.com/en/stable/users/configuration/hooks/#global-hooks"
+        },
+        {
+          "message": "WP-CLI, Drush 8, magerun, magerun2, and the Symfony CLI are installed only in the project types that use them (v1.25.5+). To use one elsewhere, add it in a `.ddev/web-build` Dockerfile. https://docs.ddev.com/en/stable/users/extend/customizing-images/#project-specific-utilities"
+        },
+        {
+          "message": "Run `ddev snapshot --name=seed` once, and from then on `ddev delete` followed by `ddev start` brings that database back automatically. Or use `ddev start --seed-snapshot=<name-or-path>` for any snapshot. https://docs.ddev.com/en/stable/users/usage/database-management/#seeding-a-fresh-database-from-a-snapshot"
+        },
+        {
+          "message": "`ddev start --reset-database` throws away the current database and starts fresh, taking a snapshot first. No more `ddev delete -O` just to get a clean database."
+        },
+        {
+          "message": "Add the same company CA certificate, apt package, or tool to every project at once with global Dockerfiles in `~/.ddev/web-build/`, and set environment variables for every project with `~/.ddev/.env` and `~/.ddev/.env.<service>`. https://docs.ddev.com/en/stable/users/extend/customizing-images/#global-dockerfiles"
+        },
+        {
+          "message": "Put credentials in `.ddev/.env.local` (or `.ddev/.env.web.local`): a trailing `.local` tells DDEV to gitignore the file."
+        },
+        {
+          "message": "`ddev add-on update` updates installed add-ons that are behind their latest release. Try `ddev add-on update --dry-run` first."
+        },
+        {
+          "message": "Want to try a fix before it's released? `ddev utility download-ddev` fetches the `ddev` binary for a PR, branch, commit, or tag without touching your installed DDEV."
+        },
+        {
+          "message": "DDEV now supports MySQL 9.7 LTS. Configure new projects with `ddev config --database=mysql:9.7` or migrate existing ones with `ddev utility migrate-database mysql:9.7`."
+        },
+        {
+          "message": "New DDEV project types: MODX Revolution (`modx`) and Maho. And Shopware 6 projects get `shopware-cli`, `ddev admin-watch`, and `ddev storefront-watch` built in, no add-on needed. https://docs.ddev.com/en/stable/users/quickstart/"
+        },
+        {
+          "message": "DDEV's apt and rpm packages for Linux and WSL2 are now at Cloudsmith, `packages.ddev.com`. The old Gemfury repository still works, but switch over by re-running the install steps: https://docs.ddev.com/en/stable/users/install/ddev-installation/#ddev-installation-linux"
+        },
+        {
+          "message": "On macOS, `ddev tablepro` opens your project database in TablePro. There are lots of other database browsers too: https://docs.ddev.com/en/stable/users/usage/database-management/#database-guis"
+        },
+        {
+          "message": "DDEV benchmarks `ddev start`, `ddev stop`, Mutagen, and a Drupal install every night on every supported platform and Docker provider. See which macOS provider is fastest at https://ddev.com/blog/docker-performance and the history at https://ddev.github.io/ddev/perf/"
+        },
+        {
+          "message": "Jump to a project's directory with `ddevcd`, and more filesystem navigation tips: https://ddev.com/blog/navigating-ddev-projects-filesystem"
+        },
+        {
+          "message": "Running a coding agent on your machine? Read how to give it its own Linux user and rootless Docker while still sharing DDEV: https://ddev.com/blog/giving-an-ai-agent-its-own-linux-user"
+        },
+        {
+          "message": "Miss `drush sql-sync`? The ddev-sql-sync add-on brings it to any SSH-accessible server, for Laravel, WordPress, Drupal, or plain PHP, with sanitizing on by default. https://ddev.com/blog/sql-sync-ddev-addon"
+        },
+        {
+          "message": "Hosting WordPress on Pressable? Their official add-on gives you `ddev pull pressable` and `ddev push pressable`: `ddev add-on get pressable/ddev-pressable`"
+        },
+        {
+          "message": "Shopware on DDEV, from years of agency experience: https://ddev.com/blog/shopware-on-ddev"
+        },
+        {
+          "message": "DDEV's `generic` project type can run things you might not expect, like Umbraco CMS on .NET with SQL Server: https://ddev.com/blog/umbraco-on-ddev"
+        },
+        {
+          "message": "DDEV depends on Ondřej Surý (deb.sury.org) and the PHP Foundation for every PHP version it ships, back to 5.6. If PHP is part of how you make a living, please support them too: https://github.com/sponsors/oerdnj and https://thephp.foundation/sponsor/"
+        },
+        {
+          "message": "Is DDEV affected by PHP or nginx security issues? We write them up when they matter, like https://ddev.com/blog/php2shell-what-ddev-users-need-to-know and https://ddev.com/blog/ddev-and-nginx2root"
+        },
+        {
+          "message": "Learn advanced coder.ddev.com use: Drupal issue workspaces, the freeform template, the Coder CLI and SSH, and running Claude Code in an isolated cloud workspace. https://ddev.com/blog/coder-ddev-com-contributor-training"
+        },
+        {
+          "message": "Like DDEV? Star it on GitHub, it takes five seconds and helps new users and sponsors find it: https://github.com/ddev/ddev"
         }
       ]
     }
